@@ -35,6 +35,6 @@ to [S3](https://aws.amazon.com/de/s3/).
 
 On AWS, a [Cloudfront](https://aws.amazon.com/de/cloudfront/) instance is configured to serve the S3 files via HTTPS.
 
-I've hooked up my jocywolff.com domain, which I'm renting from [OVH](https://www.ovhcloud.com) is configured to point
+I've hooked up my jocywolff.com domain, which I'm renting from [OVH](https://www.ovhcloud.com), to point
 at [Route 53](https://aws.amazon.com/route53/)'s name servers and the root domain is configured to A name to the
 Cloudfront instance.
