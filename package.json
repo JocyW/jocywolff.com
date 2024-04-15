@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "0.0.0",
+  "description": "",
+  "module": "es2022",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "husky"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8.4.38",
+    "prettier": "3.2.5",
+    "solid-devtools": "^0.29.2",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.11"
+  }
+}

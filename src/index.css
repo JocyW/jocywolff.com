@@ -1,0 +1,31 @@
+@import url(https://themes.googleusercontent.com/fonts/css?kit=xTOoZr6X-i3kNg7pYrzMsnEzyYBuwf3lO_Sc3Mw9RUVbV0WvE1cEyAoIq5yYZlSc);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    font-family: "Lato";
+
+    print-color-adjust: exact;
+}
+
+body {
+    margin: 1.4cm 1.6cm
+}
+
+@media print {
+    @page {
+        margin: 1.4cm 1.6cm
+    }
+
+    body {
+        margin: 0
+    }
+}
+
+a {
+    color: rgb(29 78 216)
+}
+
