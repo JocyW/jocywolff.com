@@ -1,13 +1,15 @@
 import { ExperienceEntry } from './ExperienceEntity';
 import { SectionHeadline } from '../SectionHeadline';
+import { createUniqueId } from 'solid-js';
 
 
 export const Experience = () => {
+  const id = createUniqueId()
   return <div class="pt-1">
     <div class="contents text-dark-green">
-      <SectionHeadline title="Experience" />
+      <SectionHeadline title="Experience" id={id} />
     </div>
-    <div class="flex flex-col gap-5 px-2">
+    <div class="flex flex-col gap-5 px-2" role="region" aria-labelledby={id}>
       <ExperienceEntry
         company="Santander Auto Software"
         title="Senior Software Engineer"

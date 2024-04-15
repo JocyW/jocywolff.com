@@ -10,7 +10,7 @@ import { Layout } from './Layout';
 
 
 export const App = () => {
-  return <div class="content print:text-xs">
+  return <div class="contents print:text-xs">
     <Layout>
       <Picture />
       <div class="flex col-span-2 p-2 items-center">
@@ -21,15 +21,15 @@ export const App = () => {
       </div>
     </Layout>
     <Layout>
-      <div class="bg-dark-green text-white px-8 py-3 flex flex-col gap-8">
+      <aside class="bg-dark-green text-white px-8 py-3 flex flex-col gap-8">
         <Skills />
         <Languages />
-      </div>
-      <div class="col-span-2 p-2 flex flex-col gap-6">
+      </aside>
+      <main class="col-span-2 p-2 flex flex-col gap-6">
         <Experience />
         <Education />
         <Certifications />
-      </div>
+      </main>
     </Layout>
     <div class="print:hidden">
       This page was optimised for a print view.
