@@ -11,4 +11,15 @@ export const PersonalDetails = () => <div class="flex flex-col gap-2">
       >https://www.linkedin.com/in/jocy-wolff-b623a8233/</a>
     </div>
   </div>
+  {
+    import.meta.env.VITE_SHOW_CONTACT_DETAILS === 'true' && (<div>
+        <div>
+          <a href={`tel:${import.meta.env.VITE_PHONE_NUMBER.replaceAll(' ', '')}`}>{import.meta.env.VITE_PHONE_NUMBER}</a>
+        </div>
+        <div>
+          <a href={`mailto:${import.meta.env.VITE_EMAIL_ADDRESS}`}>{import.meta.env.VITE_EMAIL_ADDRESS}</a>
+        </div>
+      </div>
+    )
+  }
 </div>;
