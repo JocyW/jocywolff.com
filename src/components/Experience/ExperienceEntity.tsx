@@ -25,9 +25,9 @@ export const ExperienceEntry = ({
                                   skills
                                 }: ExperienceEntryProps) => {
   return <div class="break-inside-avoid-page">
-    <div>
+    <h4>
       <b>{company}</b> / {title}
-    </div>
+    </h4>
     <div class="text-gray-400 uppercase">
       {startDate} - {endDate}, {location}
     </div>

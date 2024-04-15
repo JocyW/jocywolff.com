@@ -1,7 +1,7 @@
 export const PersonalDetails = () => <div class="flex flex-col gap-2">
-  <div class="text-gray-600 print:text-3xl text-4xl">
+  <h2 class="text-gray-600 print:text-3xl text-4xl">
     Senior Software Engineer
-  </div>
+  </h2>
   <div>
     <div>
       <a href="https://github.com/JocyW">https://github.com/JocyW</a>
