@@ -31,5 +31,8 @@ export const App = () => {
         <Certifications />
       </div>
     </Layout>
+    <div class="print:hidden">
+      This page was optimised for a print view.
+    </div>
   </div>;
 };
