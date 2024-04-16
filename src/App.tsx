@@ -10,22 +10,22 @@ import { Layout } from './Layout';
 
 
 export const App = () => {
-  return <div class="contents print:text-xs">
+  return <div class="print:text-xs md:mx-[1.6cm] md:my-[1.4cm]">
     <Layout>
       <Picture />
       <div class="flex col-span-2 p-2 items-center">
-        <div class="flex flex-col">
+        <div class="flex flex-col px-6 md:px-0 pb-6 md:pb-0">
           <Name />
           <PersonalDetails />
         </div>
       </div>
     </Layout>
     <Layout>
-      <aside class="bg-dark-green text-white px-8 py-3 flex flex-col gap-8">
+      <aside class="bg-dark-green text-white px-8 py-8 flex flex-col gap-8 md:py-3">
         <Skills />
         <Languages />
       </aside>
-      <main class="col-span-2 p-2 flex flex-col gap-6">
+      <main class="md:col-span-2 md:p-2 flex flex-col gap-6 px-8">
         <Experience />
         <Education />
         <Certifications />

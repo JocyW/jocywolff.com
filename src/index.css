@@ -11,10 +11,6 @@ html {
     print-color-adjust: exact;
 }
 
-body {
-    margin: 1.4cm 1.6cm
-}
-
 @media print {
     @page {
         margin: 1.4cm 1.6cm
