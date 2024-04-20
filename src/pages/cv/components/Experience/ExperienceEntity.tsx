@@ -15,15 +15,16 @@ type ExperienceEntryProps = {
   skills?: string[]
 }
 
-export const ExperienceEntry = ({
-                                  company,
-                                  title,
-                                  startDate,
-                                  endDate,
-                                  location,
-                                  children,
-                                  skills
-                                }: ExperienceEntryProps) => {
+export const ExperienceEntry = (
+  {
+    company,
+    title,
+    startDate,
+    endDate,
+    location,
+    children,
+    skills
+  }: ExperienceEntryProps) => {
   return <div class="break-inside-avoid-page">
     <h4>
       <b>{company}</b> / {title}

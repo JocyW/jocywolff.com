@@ -1,14 +1,15 @@
 import { createUniqueId } from 'solid-js';
 import { SiGithub, SiLinkedin } from 'solid-icons/si';
 import { HiSolidEnvelope, HiSolidPhone } from 'solid-icons/hi';
+import { SubHeading } from '../../../components/SubHeading';
 
 export const PersonalDetails = () => {
   const headingId = createUniqueId();
 
   return <div class="flex flex-col gap-2">
-    <h2 id={headingId} class="text-gray-600 print:text-3xl text-4xl">
+    <SubHeading id={headingId}>
       Senior Software Engineer
-    </h2>
+    </SubHeading>
     <div aria-labelledby={headingId}>
       <div aria-label="Github link" class="flex gap-1 items-center">
         <SiGithub  aria-label="GitHub icon"  />

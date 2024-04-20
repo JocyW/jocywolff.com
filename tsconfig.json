@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "target": "ESNext",
+    "rootDir": "src"
   }
 }
