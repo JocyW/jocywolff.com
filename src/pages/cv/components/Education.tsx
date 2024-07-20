@@ -12,7 +12,7 @@ export const Education = () => {
       <ExperienceEntry
         title="Bachelor of Science - Business Information Systems"
         company="FOM University of Applied Sciences for Economics and Management"
-        startDate="Oct 2021"
+        startDate="Oct 2018"
         endDate="Dec 2021"
         location="Düsseldorf"
       >
