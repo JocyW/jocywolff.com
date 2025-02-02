@@ -6,7 +6,7 @@ export const Skills = () => {
   return <div>
     <SectionHeadline title="Skills" id={id} />
     <p aria-labelledby={id} role="region">
-      Typescript, React, Responsive Design, Accessible design, Tailwind, Kotlin, SpringBoot, Java, GraphQL,
+      Typescript, React, Responsive design, Accessible design, Tailwind, Kotlin, SpringBoot, Java, GraphQL,
       RESTful,
       PostgreSQL, AWS, Github, Github Actions, Datadog, DGS, Apollo Router, Openshift, Web components, SCSS,
       Figma, Ruby
