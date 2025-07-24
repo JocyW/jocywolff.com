@@ -39,4 +39,4 @@ jobs:
       - name: Deploy SAM app
         working-directory: ./server
         run: |
-          sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name scrum-poker-stack --capabilities CAPABILITY_IAM --region ${{ secrets.AWS_REGION }} --resolve-s3 
+          sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name scrum-poker-stack --capabilities CAPABILITY_IAM --region eu-west-2 --resolve-s3 
