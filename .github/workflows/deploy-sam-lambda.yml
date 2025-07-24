@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - 'server/lambda-scrum-poker.js'
-      - 'server/template-sam.yaml'
+      - 'server/template.yaml'
       - '.github/workflows/deploy-sam-lambda.yml'
 
 jobs:
