@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - cd/**
+      - .github/workflows/deploy-cd.yml
 jobs:
   update:
     name: Update
