@@ -26,5 +26,6 @@ jobs:
         with:
           command: up
           stack-name: cd
+          work-dir: cd
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
