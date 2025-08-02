@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "bin",
+        "target": "es2020",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+    },
+    "files": [
+        "index.ts"
+    ]
+}
