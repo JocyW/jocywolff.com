@@ -1,11 +1,19 @@
 import { createEffect, createSignal, createUniqueId } from 'solid-js';
 import { BingoCard, BingoField } from './components/BingoField';
-import shuffle from 'lodash.shuffle';
+// import shuffle from 'lodash.shuffle';
 import { SubHeading } from '../../components/SubHeading';
 
 const LS_KEY = 'bingo';
 const FIELD_SIZE = 5;
 const FIELD_ITEMS_COUNT = FIELD_SIZE * FIELD_SIZE;
+
+function shuffleArray(array: any[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 const toBingoCards = (text?: string): BingoCard[] => {
   let items = text.split('\n');
@@ -17,7 +25,7 @@ const toBingoCards = (text?: string): BingoCard[] => {
     } satisfies BingoCard)
     : [];
 
-  return shuffle(
+  return shuffleArray(
     [...items.map((name) => {
       return {
         id: createUniqueId(),
