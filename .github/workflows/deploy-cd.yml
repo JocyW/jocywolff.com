@@ -25,6 +25,6 @@ jobs:
       - uses: pulumi/actions@v6
         with:
           command: up
-          stack-name: jocywolff/cd
+          stack-name: cd/prod
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
