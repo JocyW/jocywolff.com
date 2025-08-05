@@ -16,11 +16,6 @@ const domains = config.requireObject<Array<{
 
 const bucket = new s3.Bucket(resoucePrefix, {
     bucket: resoucePrefix,
-    grants: [{
-        id: "a60606d6ca1fbff30c43f10d2b0e8ef87325e80560f0f0a87c042949eb7ebc92",
-        permissions: ["FULL_CONTROL"],
-        type: "CanonicalUser",
-    }],
     region: awsRegion,
     requestPayer: "BucketOwner",
     serverSideEncryptionConfiguration: {
@@ -31,8 +26,6 @@ const bucket = new s3.Bucket(resoucePrefix, {
             bucketKeyEnabled: true,
         },
     }
-}, {
-    protect: true,
 });
 
 const website = new s3.BucketWebsiteConfiguration(resoucePrefix, {
