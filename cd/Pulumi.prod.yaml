@@ -5,5 +5,5 @@ config:
   domains:
     - name: jocywolff.com
       hostedZoneId: Z00904551SSPAC54YB680
-    - name j2y.io
+    - name: j2y.io
       hostedZoneId: Z02883131ORG8LW5XATI0
