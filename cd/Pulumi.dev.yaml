@@ -1,0 +1,8 @@
+config:
+  env: dev
+  aws:region: eu-west-1
+  resourcePrefix: dev.jocywolff.com
+  certificateArn: arn:aws:acm:us-east-1:767397992899:certificate/0b3643d0-69a3-461b-bf52-5b29143029f2
+  domains:
+    - name: dev.jocywolff.com
+      hostedZoneId: Z00904551SSPAC54YB680

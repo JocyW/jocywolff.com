@@ -7,14 +7,15 @@ const awsRegion = awsConfig.require('region')
 const config = new Config()
 const certificateArn = config.require('certificateArn');
 const env = config.require('env');
+const resoucePrefix = config.require('resourcePrefix')
 
 const domains = config.requireObject<Array<{
     name: string,
     hostedZoneId: string
 }>>('domains')
 
-const bucket = new s3.Bucket("jocywolff.com", {
-    bucket: "jocywolff.com",
+const bucket = new s3.Bucket(resoucePrefix, {
+    bucket: resoucePrefix,
     grants: [{
         id: "a60606d6ca1fbff30c43f10d2b0e8ef87325e80560f0f0a87c042949eb7ebc92",
         permissions: ["FULL_CONTROL"],
@@ -34,7 +35,7 @@ const bucket = new s3.Bucket("jocywolff.com", {
     protect: true,
 });
 
-const website = new s3.BucketWebsiteConfiguration("jocywolff.com", {
+const website = new s3.BucketWebsiteConfiguration(resoucePrefix, {
     bucket: bucket.id,
     indexDocument: {
         suffix: "index.html",
@@ -56,7 +57,7 @@ const cachePolicy = await cloudfront.getCachePolicy({
     name: "Managed-CachingDisabled",
 });
 
-const distribution = new cloudfront.Distribution("jocywolff.com", {
+const distribution = new cloudfront.Distribution(resoucePrefix, {
     aliases: domains.map(domain => domain.name),
     customErrorResponses: [{
         errorCachingMinTtl: 10,

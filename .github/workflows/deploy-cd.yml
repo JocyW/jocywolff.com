@@ -3,9 +3,12 @@ on:
   push:
     branches:
       - main
+      - dev
     paths:
       - cd/**
       - .github/workflows/deploy-cd.yml
+env:
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }} 
 jobs:
   update:
     name: Update
@@ -21,11 +24,13 @@ jobs:
           aws-access-key-id: ${{ secrets.CD_AWS_KEY_ID }}
           aws-region: eu-west-1
           aws-secret-access-key: ${{ secrets.CD_AWS_SECRET_ACCESS_KEY }}
-      - run: cd cd && npm install
-      - uses: pulumi/actions@v6
+      - name: Install dependencies
+        run: cd cd && npm install
+      - name: Run Pulumi up
+        uses: pulumi/actions@v6
         with:
           command: up
-          stack-name: jocywolff/prod
+          stack-name: ${{ (env.BRANCH_NAME == 'main' && 'jocywolff/prod') || (env.BRANCH_NAME == 'dev' && 'jocywolff/dev') || 'jocywolff/dev' }}
           work-dir: cd
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}

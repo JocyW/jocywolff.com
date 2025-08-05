@@ -1,7 +1,8 @@
 config:
   env: prod
   aws:region: eu-west-1
-  certificateArn: arn:aws:acm:us-east-1:767397992899:certificate/0b3643d0-69a3-461b-bf52-5b29143029f2
+  resourcePrefix: jocywolff.com
+  certificateArn: arn:aws:acm:us-east-1:767397992899:certificate/2aab6d6b-ff31-4ae9-8d02-0e9ceb9dea1e
   domains:
     - name: jocywolff.com
       hostedZoneId: Z00904551SSPAC54YB680
