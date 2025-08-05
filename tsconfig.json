@@ -5,6 +5,5 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "target": "ESNext",
-    "rootDir": "src"
   }
 }

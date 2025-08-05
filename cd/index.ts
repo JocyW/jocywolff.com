@@ -1,27 +1,26 @@
-import * as pulumi from "@pulumi/pulumi";
-import * as aws from "@pulumi/aws";
+import {s3,cloudfront, route53} from '@pulumi/aws'
+import {Config} from '@pulumi/pulumi'
 
-// --- Configuration Variables ---
-// You will need to replace these with your actual values.
-// The domain name for your website.
-const certificateArn = "arn:aws:acm:us-east-1:767397992899:certificate/0b3643d0-69a3-461b-bf52-5b29143029f2";
+const awsConfig = new Config('aws');
+const awsRegion = awsConfig.require('region')
 
-const domains = [{
-    name: "jocywolff.com",
-    hostedZoneId: "Z00904551SSPAC54YB680",
-}, {
-    name: "j2y.io",
-    hostedZoneId: "Z02883131ORG8LW5XATI0",
-}];
+const config = new Config()
+const certificateArn = config.require('certificateArn');
+const env = config.require('env');
 
-const bucket = new aws.s3.Bucket("jocywolff.com", {
+const domains = config.requireObject<Array<{
+    name: string,
+    hostedZoneId: string
+}>>('domains')
+
+const bucket = new s3.Bucket("jocywolff.com", {
     bucket: "jocywolff.com",
     grants: [{
         id: "a60606d6ca1fbff30c43f10d2b0e8ef87325e80560f0f0a87c042949eb7ebc92",
         permissions: ["FULL_CONTROL"],
         type: "CanonicalUser",
     }],
-    region: "eu-west-1",
+    region: awsRegion,
     requestPayer: "BucketOwner",
     serverSideEncryptionConfiguration: {
         rule: {
@@ -35,7 +34,7 @@ const bucket = new aws.s3.Bucket("jocywolff.com", {
     protect: true,
 });
 
-const website = new aws.s3.BucketWebsiteConfiguration("jocywolff.com", {
+const website = new s3.BucketWebsiteConfiguration("jocywolff.com", {
     bucket: bucket.id,
     indexDocument: {
         suffix: "index.html",
@@ -45,26 +44,20 @@ const website = new aws.s3.BucketWebsiteConfiguration("jocywolff.com", {
     },
 });
 
-const originRequestPolicy = await aws.cloudfront.getOriginRequestPolicy({
+const originRequestPolicy = await cloudfront.getOriginRequestPolicy({
     name: "Managed-CORS-S3Origin",
 });
 
-const responseHeadersPolicy = await aws.cloudfront.getResponseHeadersPolicy({
+const responseHeadersPolicy = await cloudfront.getResponseHeadersPolicy({
     name: "Managed-CORS-With-Preflight",
 });
 
-const cachePolicy = await aws.cloudfront.getCachePolicy({
+const cachePolicy = await cloudfront.getCachePolicy({
     name: "Managed-CachingDisabled",
 });
 
-// --- 3. Create a CloudFront Distribution ---
-// This CDN will cache your website content and serve it globally,
-// improving performance and reducing latency.
-const distribution = new aws.cloudfront.Distribution("jocywolff.com", {
-    aliases: [
-        "j2y.io",
-        "jocywolff.com",
-    ],
+const distribution = new cloudfront.Distribution("jocywolff.com", {
+    aliases: domains.map(domain => domain.name),
     customErrorResponses: [{
         errorCachingMinTtl: 10,
         errorCode: 403,
@@ -120,31 +113,23 @@ const distribution = new aws.cloudfront.Distribution("jocywolff.com", {
         minimumProtocolVersion: "TLSv1.2_2021",
         sslSupportMethod: "sni-only",
     },
-}, {
-    protect: true,
 });
 
-const records = domains.map((domain) => {
-    return {
-        ...domain,
-        record: new aws.route53.Record(`${domain.name}_A`, {
+const records = domains.map((domain) => 
+    new route53.Record(`${domain.name}_A`, {
             zoneId: domain.hostedZoneId,
             name: domain.name,
-            type: aws.route53.RecordType.A,
+            type: route53.RecordType.A,
             aliases: [{
                 evaluateTargetHealth: false,
                 name: distribution.domainName,
                 zoneId: distribution.hostedZoneId,
             }],
         }),
-    }
-});
+);
 
-
-// --- Export the output values ---
-// These values will be displayed after a successful `pulumi up`.
 export const bucketName = bucket.id;
 export const cdnDomainName = distribution.domainName;
-export const recordNames = records.map((record) => record.record.name);
-export const cdnUrl = pulumi.interpolate`https://${distribution.domainName}`;
-export const websiteUrl = pulumi.interpolate`https://${records.map((record) => record.record.name).join(", ")}`;
+export const recordNames = records.map((record) => record.name);
+export const cdnUrl = `https://${distribution.domainName}`;
+export const websiteUrl = records.map((record) => `https://${record.name}`)
