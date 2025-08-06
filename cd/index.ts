@@ -27,6 +27,13 @@ const bucket = new s3.Bucket(resoucePrefix, {
         },
     }
 });
+const BucketPublicAccessBlock = new s3.BucketPublicAccessBlock(resoucePrefix, {
+    bucket: bucket.id,
+    blockPublicAcls: false,
+    blockPublicPolicy: false,
+    ignorePublicAcls: false,
+    restrictPublicBuckets: false,
+});
 
 const website = new s3.BucketWebsiteConfiguration(resoucePrefix, {
     bucket: bucket.id,
