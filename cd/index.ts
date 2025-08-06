@@ -34,6 +34,12 @@ const BucketPublicAccessBlock = new s3.BucketPublicAccessBlock(resoucePrefix, {
     ignorePublicAcls: false,
     restrictPublicBuckets: false,
 });
+const exampleBucketOwnershipControls = new s3.BucketOwnershipControls(resoucePrefix, {
+    bucket: bucket.id,
+    rule: {
+        objectOwnership: "BucketOwnerPreferred",
+    },
+});
 
 const website = new s3.BucketWebsiteConfiguration(resoucePrefix, {
     bucket: bucket.id,
