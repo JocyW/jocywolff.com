@@ -9,7 +9,7 @@
         - uses: actions/checkout@master
         - uses: actions/setup-node@v2
           with:
-            node-version: 21
+            node-version: 24
         - name: Install
           run: yarn install
         - name: Build
