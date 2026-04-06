@@ -1,42 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-
-type Annotation = {
-  id: string;
-  phrase: string;
-  start: number;
-  end: number;
-  originalPhrase: string;
-  body: string;
-  category?:
-    | 'idiom'
-    | 'historical'
-    | 'cultural_reference'
-    | 'wordplay'
-    | 'slang'
-    | 'name';
-};
-
-type LyricLine = {
-  original: string;
-  translation: string;
-  annotations: Annotation[];
-};
-
-type SectionType =
-  | 'intro'
-  | 'verse'
-  | 'pre-chorus'
-  | 'chorus'
-  | 'bridge'
-  | 'outro'
-  | 'spoken';
-
-type LyricSection = {
-  id: string;
-  type: SectionType;
-  label: string;
-  lines: LyricLine[];
-};
+import type { Annotation, LyricLine, SectionType, LyricSection } from './types';
 
 type SongMeta = {
   title: string;

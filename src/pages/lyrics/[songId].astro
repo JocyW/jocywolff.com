@@ -1,10 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { LyricsDisplay } from './LyricsDisplay';
+import { LyricsDisplay } from '../../features/lyrics/LyricsDisplay';
 import '../../index.css';
 
 export async function getStaticPaths() {
-  const songFiles = import.meta.glob('./songs/*.json', { eager: true });
+  const songFiles = import.meta.glob('../../features/lyrics/songs/*.json', { eager: true });
   return Object.values(songFiles).map((mod: any) => {
     const song = mod.default;
     return { params: { songId: song.id }, props: { song } };

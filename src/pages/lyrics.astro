@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import '../index.css';
 
-const songFiles = import.meta.glob('./lyrics/songs/*.json', { eager: true });
+const songFiles = import.meta.glob('../features/lyrics/songs/*.json', { eager: true });
 const songs = Object.values(songFiles).map((m: any) => m.default);
 ---
 <Base
