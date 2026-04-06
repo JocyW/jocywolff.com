@@ -8,7 +8,6 @@ import React, {
 } from 'react';
 import { usePopper } from 'react-popper';
 import { categories } from './Annotation';
-import musikIstKeineLoesung from './songs/musik-ist-keine-lösung.json';
 
 type Annotation = {
   id: string;
@@ -244,15 +243,15 @@ function Section({ section }: { section: LyricSection }) {
       >
         {/* Lyrics: two-column grid (German | English) */}
         <div className="flex-1 grid grid-cols-2 gap-x-6 content-start">
-          <h3 className="col-span-2 text-xs font-semibold uppercase tracking-widest text-gray-400">
+          <h3 className="col-span-2 text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">
             {section.label}
           </h3>
           {section.lines.map((line, i) => (
             <React.Fragment key={i}>
-              <p className="text-gray-400 text-sm self-start">
+              <p className="text-gray-400 text-sm self-start pb-1.5">
                 {highlightByPhrase(line.original, line.annotations)}
               </p>
-              <p className="text-gray-900 self-start">{line.translation}</p>
+              <p className="text-gray-900 self-start pb-1.5">{line.translation}</p>
             </React.Fragment>
           ))}
         </div>
@@ -296,8 +295,7 @@ function Section({ section }: { section: LyricSection }) {
   );
 }
 
-export function LyricsDisplay() {
-  const song = musikIstKeineLoesung;
+export function LyricsDisplay({ song }: { song: Song }) {
   return (
     <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col gap-8">
       <div>

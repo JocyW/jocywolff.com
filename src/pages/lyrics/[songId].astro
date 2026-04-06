@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LyricsDisplay } from './LyricsDisplay';
+import '../../index.css';
+
+export async function getStaticPaths() {
+  const songFiles = import.meta.glob('./songs/*.json', { eager: true });
+  return Object.values(songFiles).map((mod: any) => {
+    const song = mod.default;
+    return { params: { songId: song.id }, props: { song } };
+  });
+}
+
+const { song } = Astro.props;
+const description = `Annotated ${song.language.toUpperCase()} lyrics for "${song.title}" by ${song.artist} — with English translations and explanations of idioms, wordplay, cultural references, and slang.`;
+const canonicalURL = `https://jocywolff.com/lyrics/${song.id}`;
+---
+<Base
+  title={`${song.title} — ${song.artist} | Lyrics`}
+  description={description}
+  ogType="article"
+  canonicalURL={canonicalURL}
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "MusicRecording",
+    "name": song.title,
+    "byArtist": { "@type": "MusicGroup", "name": song.artist },
+    "inAlbum": song.album ? { "@type": "MusicAlbum", "name": song.album } : undefined,
+    "datePublished": song.year ? String(song.year) : undefined,
+    "inLanguage": song.language,
+    "description": description,
+    "url": canonicalURL
+  })} />
+  <div class="md:mx-[1.6cm] flex flex-col md:gap-[1.4cm]">
+    <LyricsDisplay song={song} client:load />
+  </div>
+</Base>

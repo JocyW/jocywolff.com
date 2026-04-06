@@ -1,10 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
-import { LyricsDisplay } from './lyrics/LyricsDisplay';
 import '../index.css';
+
+const songFiles = import.meta.glob('./lyrics/songs/*.json', { eager: true });
+const songs = Object.values(songFiles).map((m: any) => m.default);
 ---
-<Base title="Lyrics — Jocy Wolff">
-  <div class="md:mx-[1.6cm] flex flex-col md:gap-[1.4cm]">
-    <LyricsDisplay client:load />
+<Base
+  title="Lyrics — Jocy Wolff"
+  description="Annotated song lyrics with line-by-line translations and linguistic notes on idioms, wordplay, cultural references, and slang."
+>
+  <div class="md:mx-[1.6cm] flex flex-col gap-4 py-10">
+    <h1 class="text-2xl font-bold text-gray-900">Lyrics</h1>
+    <ul class="flex flex-col gap-2">
+      {songs.map((song: any) => (
+        <li>
+          <a href={`/lyrics/${song.id}`} class="text-blue-700 hover:underline">
+            {song.title} — {song.artist}{song.year ? ` (${song.year})` : ''}
+          </a>
+        </li>
+      ))}
+    </ul>
   </div>
 </Base>

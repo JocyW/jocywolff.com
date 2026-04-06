@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /lyrics-editor
+
+Sitemap: https://jocywolff.com/sitemap-index.xml

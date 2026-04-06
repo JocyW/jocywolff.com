@@ -1,0 +1,19 @@
+# Jocy Wolff
+
+> Personal website of Jocy Wolff, Senior Software Engineer. Contains a CV, an interactive bingo page, and annotated song lyrics with translations.
+
+## Lyrics
+
+Each song has its own page at /lyrics/{song-id} with:
+- Original lyrics (language varies by song)
+- English translations line-by-line
+- Annotations explaining idioms, wordplay, cultural references, historical context, slang, and named entities
+
+### Songs
+
+- [Musik ist keine Lösung — Alligatoah](/lyrics/alligatoah-musik-ist-keine-lösung): German rap lyrics (2015). Annotations cover Alligatoah's internal personas, German slang, wordplay, and cultural references.
+
+## Notes
+
+- /lyrics-editor is an authoring tool, not intended for indexing.
+- All lyrics are presented for educational and linguistic commentary purposes.
