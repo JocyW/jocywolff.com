@@ -11,5 +11,9 @@
         "@pulumi/awsx": "^3.0.0",
         "@pulumi/pulumi": "^3.187.0",
         "ts-node": "10"
+    },
+    "resolutions": {
+        "picomatch": "^4.0.4",
+        "fast-xml-parser": "^5.5.10"
     }
 }
