@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { LyricsDisplay } from './lyrics/LyricsDisplay';
+import '../index.css';
+---
+<Base title="Lyrics — Jocy Wolff">
+  <div class="md:mx-[1.6cm] flex flex-col md:gap-[1.4cm]">
+    <LyricsDisplay client:load />
+  </div>
+</Base>

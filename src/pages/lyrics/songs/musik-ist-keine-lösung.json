@@ -1,0 +1,600 @@
+{
+  "id": "alligatoah-musik-ist-keine-lösung",
+  "title": "Musik ist keine Lösung",
+  "artist": "Alligatoah",
+  "language": "de",
+  "album": "Musik ist keine Lösung",
+  "year": 2015,
+  "sections": [
+    {
+      "id": "d56b1dfe-5825-4155-bafb-047e8a484380",
+      "type": "verse",
+      "label": "Part 1",
+      "lines": [
+        {
+          "original": "Sehr geehrter Kaliba, netter Versuch",
+          "translation": "Dear Kaliba, nice try",
+          "annotations": [
+            {
+              "id": "531548ea-880a-41b8-9ad2-918806d2a342",
+              "originalPhrase": "Kaliba",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Alligatoah was writing songs as 2 personas: Kaliba 69 and DJ Deagle. Kaliba being the rapping persona, while Deagle is the producer. Alligatoah is speaking directly to his rapper-self here.",
+              "category": "name"
+            }
+          ]
+        },
+        {
+          "original": "Kritische Texte, Weltverbesserer-Blues",
+          "translation": "Critical lyrics, world-improvement blues",
+          "annotations": []
+        },
+        {
+          "original": "Du denkst, du gibst dem System eine Reparatur",
+          "translation": "You think you're fixing the system",
+          "annotations": []
+        },
+        {
+          "original": "Unterschätzt dabei nur das Gesetz der Natur",
+          "translation": "But underestimate the law of nature",
+          "annotations": []
+        },
+        {
+          "original": "Denn wir kommen mit Kohlekraft",
+          "translation": "Because we're coming with coal power",
+          "annotations": []
+        },
+        {
+          "original": "Dem Monopol der Macht, mit Munition en Masse",
+          "translation": "The monopoly of power, with ammunition en masse",
+          "annotations": []
+        },
+        {
+          "original": "Durch Korruption ergattertem Logen-Platz",
+          "translation": "Loge seat won through corruption",
+          "annotations": []
+        },
+        {
+          "original": "Du kommst mit Notenblatt, wir haben uns tot gelacht!",
+          "translation": "You show up with a music sheet, we laughed at it!",
+          "annotations": [
+            {
+              "id": "ad4b1fc6-6b18-4fef-ab66-cf9b33585d44",
+              "originalPhrase": "tot gelacht",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Literally it would mean \"laughed to death\", but describes wholehearted laughter",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Guck ma', David gegen Goliath ist aus 'nem Märchenbuch voller erlogenem Quatsch",
+          "translation": "Check it out, David versus Goliath is from a fairy tale book of made up shit",
+          "annotations": []
+        },
+        {
+          "original": "Bevor du Feuer bei der Generation entfachst",
+          "translation": "Before you ignite the fire of a generation",
+          "annotations": []
+        },
+        {
+          "original": "Fahren wir Hovercraft durch eine Mondlandschaft",
+          "translation": "we'll be driving hovercraft through a moon landscape",
+          "annotations": []
+        },
+        {
+          "original": "Ein Anti-Kriegs-Klangerzeugnis? Pfft, ganz was Neues",
+          "translation": "An anti-war sound production? Pfft, very original",
+          "annotations": [
+            {
+              "id": "e0175938-b58e-4759-ba04-acd7076bb00f",
+              "originalPhrase": "Klangerzeugnis",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "\"Klangerzeugnis\" is not a commonly used word, so it's purposefully used to stand out as clinical",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "John Lennon hat das schon in den Siebzigern gemacht",
+          "translation": "John Lennon already tried this in the seventies",
+          "annotations": []
+        },
+        {
+          "original": "Hat ja richtig was gebracht",
+          "translation": "That really helped",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "69f12085-631e-4fe8-81c9-df8d5bbb8d6e",
+      "type": "verse",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Du machst ein Lied gegen die gemeine Welt",
+          "translation": "You make a song fighting the evil world",
+          "annotations": []
+        },
+        {
+          "original": "Und in China hat gerade jemand Reis bestellt",
+          "translation": "And in China someone just ordered rice",
+          "annotations": []
+        },
+        {
+          "original": "Dann kommt der Krieg wieder, dann begreifst du schnell",
+          "translation": "Then the war comes back and you notice quickly",
+          "annotations": []
+        },
+        {
+          "original": "Musik ist keine Lösung",
+          "translation": "Music is not a solution",
+          "annotations": []
+        },
+        {
+          "original": "Die Melodie löst bei ihnen Hoffnung aus",
+          "translation": "The melody sparks hope with them",
+          "annotations": []
+        },
+        {
+          "original": "Heute hebt das Festivalgesocks die Faust",
+          "translation": "Today, the festival-scum raises their fist",
+          "annotations": []
+        },
+        {
+          "original": "Aber morgen wachen sie in ihrer Kotze auf",
+          "translation": "But tomorrow they wake up in their own sick",
+          "annotations": []
+        },
+        {
+          "original": "Musik ist keine Lösung",
+          "translation": "Music is not a solution",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "902a94f1-12a0-4e62-9924-648a6602db91",
+      "type": "verse",
+      "label": "Part 2",
+      "lines": [
+        {
+          "original": "Was willst du? Menschen mit deinen Liedern tragen?",
+          "translation": "What do you want? Carry people with your songs?",
+          "annotations": []
+        },
+        {
+          "original": "Von der schiefen Bahn zur Zivilcourage?",
+          "translation": "From the wrong path to civil courage",
+          "annotations": []
+        },
+        {
+          "original": "Über allen Krisen-Staaten Friedensfahnen? (Teh)",
+          "translation": "Raising white flags above all states in crisis",
+          "annotations": []
+        },
+        {
+          "original": "Willst du noch 'ne Niere haben?",
+          "translation": "You want a kidney as well?",
+          "annotations": []
+        },
+        {
+          "original": "Denkst du, du bist jetzt die Stimme der Gesellschaft?",
+          "translation": "Do you think you're the voice of society?",
+          "annotations": []
+        },
+        {
+          "original": "Die finden dich so lange cool, bis du Geld hast",
+          "translation": "They think you're cool until you have money",
+          "annotations": []
+        },
+        {
+          "original": "Vielleicht wirst du von manchen für den mutigen Schritt geliebt",
+          "translation": "Maybe you'll be loved for the courageous step",
+          "annotations": []
+        },
+        {
+          "original": "Andere sagen: „Der will doch nur gute Publicity!“",
+          "translation": "Others will say: \"He just wants positive media coverage\"",
+          "annotations": []
+        },
+        {
+          "original": "Nein, es ist nicht leicht, du musst Gegenwind verkraften",
+          "translation": "No, it's not easy, you'll have to endure headwind",
+          "annotations": []
+        },
+        {
+          "original": "Zweifelhafte Leute aus der falschen Ecke werden für die nächste Single klatschen",
+          "translation": "Shady people from the wrong crowd will cheer for your next single",
+          "annotations": []
+        },
+        {
+          "original": "Zum Beispiel Anzug-getarnte, rechtsextrem gesinnte Spasten",
+          "translation": "For example suit-disguised right wing Idiots",
+          "annotations": [
+            {
+              "id": "16db8c8e-3776-4adb-8b30-cec33d2944db",
+              "originalPhrase": "Spasten",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Commonly used as a curse word at the time it's an insulting phrase describing someone with muscle spasms",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Die dein Video posten, weil sie kalkulierte Jagd auf jugendliche Wählerstimmen machen",
+          "translation": "Who post videos because they're on a calculated hunt for young voters",
+          "annotations": []
+        },
+        {
+          "original": "Klar, denn keiner versteht deine Texte nach einer Jever-Palette",
+          "translation": "Sure, nobody understands your lyrics after a pallet of Jever",
+          "annotations": [
+            {
+              "id": "cc3fed8f-ba03-4de6-9bb0-c557a3dfdec7",
+              "originalPhrase": "Jever-Palette",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Jever is a beer brand from the north of Germany",
+              "category": "name"
+            }
+          ]
+        },
+        {
+          "original": "Du hast mehr Schnapsleichen auf dem Gewissen, als Leben gerettet",
+          "translation": "You have more drunken deaths on your conscious than saved lives ",
+          "annotations": []
+        },
+        {
+          "original": "Die Satire wirst du schwer im Dorf erläutern",
+          "translation": "You will have a hard time elucidating the satire in the village",
+          "annotations": []
+        },
+        {
+          "original": "Es sind Perlen vor die Säufer",
+          "translation": "It's pearls before the drunkards",
+          "annotations": [
+            {
+              "id": "49e7ed28-1e73-4135-94bc-67f3b3a8526a",
+              "originalPhrase": "Perlen vor die Säufer",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Refers to \"Perlen vor die Säue werfen\", which translates to \"Casting pearls before the swines\" and is used to describe offering something another person would not appreciate. It's used here with drunkards instead of swines",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Schenk den Menschen Botschaften und dein Temperament",
+          "translation": "Offer a message and your temperament to the people",
+          "annotations": []
+        },
+        {
+          "original": "Sie werden nur darüber streiten, wer dich länger kennt",
+          "translation": "They will just fight over who knows you for longer",
+          "annotations": []
+        },
+        {
+          "original": "Glaub mal nicht, dass da irgendetwas hängenbleibt",
+          "translation": "Don't think that anything will stick",
+          "annotations": []
+        },
+        {
+          "original": "Außer dem Download der MP3",
+          "translation": "Except the download of your MP3",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "a46d5e20-0d07-4743-aad1-24539e417083",
+      "type": "verse",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Du machst ein Lied gegen die gemeine Welt",
+          "translation": "You make a song fighting the evil world",
+          "annotations": []
+        },
+        {
+          "original": "Und in China hat gerade jemand Reis bestellt",
+          "translation": "And in China someone just ordered rice",
+          "annotations": []
+        },
+        {
+          "original": "Dann kommt der Krieg wieder, dann begreifst du schnell",
+          "translation": "Then the war comes back and you notice quickly",
+          "annotations": []
+        },
+        {
+          "original": "Musik ist keine Lösung",
+          "translation": "Music is not a solution",
+          "annotations": []
+        },
+        {
+          "original": "Die Melodie löst bei ihnen Hoffnung aus",
+          "translation": "The melody sparks hope with them",
+          "annotations": []
+        },
+        {
+          "original": "Heute hebt das Festivalgesocks die Faust",
+          "translation": "Today, the festival-scum raises their fist",
+          "annotations": []
+        },
+        {
+          "original": "Aber morgen wachen sie in ihrer Kotze auf",
+          "translation": "But tomorrow they wake up in their own sick",
+          "annotations": []
+        },
+        {
+          "original": "Musik ist keine Lösung",
+          "translation": "Music is not a solution",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "2c8ad927-3b8b-4b49-b581-e86d5b370a1a",
+      "type": "verse",
+      "label": "Part 3",
+      "lines": [
+        {
+          "original": "Wenn du alles so viel besser weißt, du Wunderknabe",
+          "translation": "If you know so much better you wonder-child",
+          "annotations": [
+            {
+              "id": "5d0ac04f-5eab-481c-b8ec-6a522f0798b6",
+              "originalPhrase": "Wunderknabe",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Literally \"wonder-child\", but \"Knabe\" is an old German word for a young boy not commonly used anymore",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Warum sitzt du nicht im Bundestag, hä?",
+          "translation": "Why don't you have a seat in the Bundestag, huh?",
+          "annotations": [
+            {
+              "id": "15e12e84-a52c-43fa-b157-3db29a119959",
+              "originalPhrase": "Bundestag",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Name of the German federal parliament",
+              "category": "name"
+            }
+          ]
+        },
+        {
+          "original": "Hast dir gedacht, der Job als Protestsänger ist krisensicher",
+          "translation": "Did you think the job as protest-singer is safe against crisis?",
+          "annotations": []
+        },
+        {
+          "original": "Doch wäre Weltfrieden, braucht man deine Lieder nicht mehr",
+          "translation": "But if we had world peace we had no use for your songs anymore",
+          "annotations": []
+        },
+        {
+          "original": "Wenn man die Geiseln in Guantánamo befreit",
+          "translation": "If the hostages in Guantanamo were freed",
+          "annotations": []
+        },
+        {
+          "original": "Und das Weltklima wieder einen Status Quo erreicht",
+          "translation": "And the world climate goes back to a status quo",
+          "annotations": []
+        },
+        {
+          "original": "Muss ich darauf hinweisen, ohne schadenfroh zu sein",
+          "translation": "I have to point out without being happy about your misfortune",
+          "annotations": [
+            {
+              "id": "8519ea13-8279-4bc6-8508-2a3f2de77260",
+              "originalPhrase": "schadenfroh",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "\"Schadenfreude\" is the term for being happy about somebody else's misfortune",
+              "category": "name"
+            }
+          ]
+        },
+        {
+          "original": "Du singst dich in die Arbeitslosigkeit",
+          "translation": "You're singing yourself out of your job",
+          "annotations": []
+        },
+        {
+          "original": "Gib es zu – du brauchst die Tränen, die Angst",
+          "translation": "Admit it - you need the tears, the fear",
+          "annotations": []
+        },
+        {
+          "original": "Die Hero-Junks, die Krebs-Erkrankten",
+          "translation": "The heroin junkies, the cancer patients",
+          "annotations": []
+        },
+        {
+          "original": "Die Schlägerbanden, den Mädchenhandel",
+          "translation": "The gang of thugs, the girl trafficking",
+          "annotations": []
+        },
+        {
+          "original": "Die Denunzianten von nebenan",
+          "translation": "The denunciators from next door",
+          "annotations": []
+        },
+        {
+          "original": "Die Militär-Tyrannen, die Hate-Kampagnen",
+          "translation": "The military tyrants, the hate campaigns",
+          "annotations": []
+        },
+        {
+          "original": "Die Karriere-Schlampen, die Laserschranken",
+          "translation": "The career-sluts, the laser gates",
+          "annotations": []
+        },
+        {
+          "original": "Die toxigenen Substanzen, die in den Meeren landen",
+          "translation": "The toxic substances that end up in the sea",
+          "annotations": []
+        },
+        {
+          "original": "Der Planet geht baden, doch wir geh'n zusammen!",
+          "translation": "The planet goes down, but we're going together",
+          "annotations": [
+            {
+              "id": "e6c7566c-25c4-471a-8913-04f742825b8b",
+              "originalPhrase": "Planet geht baden",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Literally \"The planet goes swimming\", but means that something is going downhill",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Schenk dir ein und du siehst, dich bemerkt keiner",
+          "translation": "Help yourself to a drink and you realise that nobody notices you",
+          "annotations": []
+        },
+        {
+          "original": "Das Glas ist halb-leer, Meister",
+          "translation": "The glass is half-empty, master",
+          "annotations": [
+            {
+              "id": "4fa420b3-8db1-45be-945b-987dc1b9c663",
+              "originalPhrase": "Meister",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Literally \"Master\", is the title of an artisan at the end of their education. Now also used as a slang word to address somebody.",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Erlaub den Zweifeln, deinen Kopf zu ficken",
+          "translation": "Allow the doubts to fuck your head",
+          "annotations": []
+        },
+        {
+          "original": "Denn es steckt immer noch Mist in jedem Optimisten",
+          "translation": "Because there is still shit in every optimist ",
+          "annotations": [
+            {
+              "id": "2da62071-586b-49a6-9be6-abb226dee06d",
+              "originalPhrase": "Mist in jedem Optimisten",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "\"Mist\" is the German word for manure. The word play is that \"Optimist\" includes \"Mist\", so the word optimist literally includes manure in German.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Mach's wie wir, uns ist die Schöpfung latte",
+          "translation": "Copy us, we don't care about the genesis",
+          "annotations": []
+        },
+        {
+          "original": "Wenn Gott nur sieben Tage braucht, kann er's ja öfters machen",
+          "translation": "If it took good only seven days he can do it again",
+          "annotations": []
+        },
+        {
+          "original": "Stampf Gitarre und Schreibfüller ein",
+          "translation": "Stomping guitar and fountain pen",
+          "annotations": [
+            {
+              "id": "8059f6a3-6108-4638-b2da-1815286ddf0f",
+              "originalPhrase": "Schreibfüller ein",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "This does not make grammatical sense in German so it might hint to be read more as it sounds. One interpretation would be to hear it as \"Schreib fülle er ein\", which translates to \"Write, fill it up\" and could reference the drinking theme used earlier in the song",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Du wirst unbesiegbar durch Gleichgültigkeit",
+          "translation": "You're becoming invincible through indifference",
+          "annotations": []
+        },
+        {
+          "original": "Nichts ist mehr schlimm und verwerflich",
+          "translation": "Nothing is bad and reprehensible anymore",
+          "annotations": []
+        },
+        {
+          "original": "Nimm dir ein Zimmer mit Meerblick",
+          "translation": "Take a room with sea view",
+          "annotations": []
+        },
+        {
+          "original": "Während sich unten das Gesindel beerdigt",
+          "translation": "While downstairs the plebs are taking each other to their graves",
+          "annotations": []
+        },
+        {
+          "original": "Gib die Menschheit—",
+          "translation": "Give up on Human-",
+          "annotations": [
+            {
+              "id": "8ba78160-77dc-4f22-ab99-42398a0dfe2b",
+              "originalPhrase": "Gib die Menschheit—",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The verse should be over here if it replicated the same structure as the first verse, but Alligatoah interrupts this pattern because he talked himself into a rage at this point and wants to keep going",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Ich bin noch nicht fertig!",
+          "translation": "I'm not done yet!",
+          "annotations": []
+        },
+        {
+          "original": "Gib die Menschheit auf, Kaliba, du verschwendest deine Kunst",
+          "translation": "Give up on humanity Kaliba you're wasting your art",
+          "annotations": []
+        },
+        {
+          "original": "Sie wollen Änderung, doch sagen, ihre Hände wär'n gebunden",
+          "translation": "They want change but are saying their hands are tied",
+          "annotations": []
+        },
+        {
+          "original": "Da sie dunkle Mächte lenken, blah, sie quengeln wieder rum",
+          "translation": "Because dark forces are driving them, bleh, they whine again",
+          "annotations": []
+        },
+        {
+          "original": "Aber die Menschen sind nicht böse, die Menschen sind nur dumm",
+          "translation": "But people are not evil, people are just stupid",
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
