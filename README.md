@@ -2,22 +2,18 @@
 
 Hey, this is the repo to my private website [jocywolff.com](https://jocywolff.com). It's intended to both be a small
 technical showcase and a means to generate the PDF version of my CV. This means not all the code you're seeing here is
-fully optimised for web viewing.  
-For example, it's a client-side rendered application, even though it's just a static page, but more about that
-in [Technologies](#technologies)
+fully optimised for web viewing.
 
 ## Technologies
 
 ### Frontend
 
-This application uses [Solid.js](https://www.solidjs.com/) for rendering, because I wanted to try it out and it looked
-similar enough to my main FE technology: React.
+This application uses [Astro](https://astro.build/) as the framework, with [React](https://react.dev/) for interactive
+components. Astro handles static site generation, which keeps the output lean and fast.
 
 Of course using [Typescript](https://www.typescriptlang.org/), I wouldn't want to live without it anymore. Catching
 errors with proper typing is a joy and duck-typing allows for some quite encapsulated types without needing lots of
 mappers.
-
-As a bundling toolchain it uses [Vite](https://vitejs.dev/), because it's the one I'm most familiar with at the moment.
 
 Styling is done with a slightly extended [TailwindCSS](https://tailwindcss.com/) preset. Because I love the portability
 of components and elements Tailwind allows you. It's also close enough to pure CSS for me to be able to write and make
