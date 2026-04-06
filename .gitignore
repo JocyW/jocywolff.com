@@ -10,3 +10,4 @@ dist
 .pnp.*
 .env.development.local
 .DS_Store
+.env
