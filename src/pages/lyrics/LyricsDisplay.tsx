@@ -114,7 +114,7 @@ function AnnotatedPhrase({
           <span
             className={`text-xs font-medium px-1.5 py-0.5 rounded self-start ${categoryColours[annotation.category]}`}
           >
-            {annotation.category.replace('_', ' ')}
+            {categories[annotation.category]?.display ?? 'Unknown'}
           </span>
         )}
         <p className="leading-snug">{annotation.body}</p>
