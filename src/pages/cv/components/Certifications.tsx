@@ -1,14 +1,14 @@
+import { useId } from 'react';
 import { ExperienceEntry } from './Experience/ExperienceEntity';
 import { SectionHeadline } from './SectionHeadline';
-import { createUniqueId } from 'solid-js';
 
 export const Certifications = () => {
-  const id = createUniqueId();
+  const id = useId();
   return <div>
-    <div class="contents text-dark-green">
+    <div className="contents text-dark-green">
       <SectionHeadline title="Certificates" id={id} />
     </div>
-    <div class="contents" role="region" aria-labelledby={id}>
+    <div className="contents" role="region" aria-labelledby={id}>
       <ExperienceEntry
         title="BeTech & Business Program"
         company="Groupo Santander"

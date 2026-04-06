@@ -1,15 +1,15 @@
+import { useId } from 'react';
 import { ExperienceEntry } from './ExperienceEntity';
 import { SectionHeadline } from '../SectionHeadline';
-import { createUniqueId } from 'solid-js';
 
 
 export const Experience = () => {
-  const id = createUniqueId()
-  return <div class="pt-1">
-    <div class="contents text-dark-green">
+  const id = useId();
+  return <div className="pt-1">
+    <div className="contents text-dark-green">
       <SectionHeadline title="Experience" id={id} />
     </div>
-    <div class="flex flex-col gap-5 px-2" role="region" aria-labelledby={id}>
+    <div className="flex flex-col gap-5 px-2" role="region" aria-labelledby={id}>
       <ExperienceEntry
         company="Santander Auto Software"
         title="Senior Software Engineer"
@@ -22,7 +22,7 @@ export const Experience = () => {
       >
         SDE-2 on a Europe-wide greenfield initiative. Building a leasing system from the ground up with an
         international system; focusing on Frontend Engineering.
-        <ul class="list-disc pl-4">
+        <ul className="list-disc pl-4">
           <li>
             Identified process gaps autonomously, devising and implementing software solutions to address
             them
@@ -57,7 +57,7 @@ export const Experience = () => {
         skills={['React', 'Redux', 'Web components']}
       >
         Lead frontend engineer on the customer-facing digital financing journey for mobility.
-        <ul class="list-disc pl-4">
+        <ul className="list-disc pl-4">
           <li>Led the overhaul of an existing frontend application, streamlining complex and unwieldy code
             into a more maintainable and efficient hook-based React application.
           </li>
@@ -82,7 +82,7 @@ export const Experience = () => {
       >
         Filled the role of technical lead for a team of students. Developed internal web software with various
         frontend and backend technologies.
-        <ul class="list-disc pl-4">
+        <ul className="list-disc pl-4">
           <li>
             Guided and mentored a team of student developers, fostering collaboration and maximizing
             productivity in our projects.

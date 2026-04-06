@@ -1,11 +1,11 @@
+import { useId } from 'react';
 import { SectionHeadline } from './SectionHeadline';
-import { createUniqueId } from 'solid-js';
 
 export const Languages = () => {
-  const id = createUniqueId();
+  const id = useId();
   return <div>
     <SectionHeadline title="Languages" id={id} />
-    <div class="contents" role="region" aria-labelledby={id}>
+    <div className="contents" role="region" aria-labelledby={id}>
       <div>
         German: Native
       </div>

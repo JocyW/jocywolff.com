@@ -1,8 +1,8 @@
+import { useId } from 'react';
 import { SectionHeadline } from './SectionHeadline';
-import { createUniqueId } from 'solid-js';
 
 export const Skills = () => {
-  const id = createUniqueId();
+  const id = useId();
   return <div>
     <SectionHeadline title="Skills" id={id} />
     <p aria-labelledby={id} role="region">
