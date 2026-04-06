@@ -1,9 +1,7 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "moduleResolution": "Bundler",
-    "module": "ESNext",
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "target": "ESNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
