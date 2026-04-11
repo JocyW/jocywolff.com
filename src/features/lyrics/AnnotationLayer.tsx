@@ -180,7 +180,7 @@ export function AnnotationLayer({ annotations }: { annotations: Annotation[] }) 
     <>
       {portals}
       {activeAnn && (
-        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-lg p-4">
+        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-lg p-4 pb-8">
           <button
             onClick={() => setActiveId(null)}
             className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-lg leading-none"
