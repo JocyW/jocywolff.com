@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { LyricsDisplay } from '../../features/lyrics/LyricsDisplay';
+import { AnnotationLayer } from '../../features/lyrics/AnnotationLayer';
+import type { Song, Annotation, LyricLine } from '../../features/lyrics/types';
 import '../../index.css';
 
 export async function getStaticPaths() {
@@ -11,7 +12,30 @@ export async function getStaticPaths() {
   });
 }
 
-const { song } = Astro.props;
+const { song } = Astro.props as { song: Song };
+
+type Segment = { text: string; ann?: Annotation };
+
+function segmentLine(line: LyricLine): Segment[] {
+  const { original: text, annotations } = line;
+  if (!annotations.length) return [{ text }];
+  const located = annotations
+    .map((ann) => ({ ann, index: text.indexOf(ann.originalPhrase) }))
+    .filter(({ index }) => index !== -1)
+    .sort((a, b) => a.index - b.index);
+  if (!located.length) return [{ text }];
+  const segs: Segment[] = [];
+  let cursor = 0;
+  for (const { ann, index } of located) {
+    if (index > cursor) segs.push({ text: text.slice(cursor, index) });
+    segs.push({ text: ann.originalPhrase, ann });
+    cursor = index + ann.originalPhrase.length;
+  }
+  if (cursor < text.length) segs.push({ text: text.slice(cursor) });
+  return segs;
+}
+
+const allAnnotations = song.sections.flatMap((s) => s.lines.flatMap((l) => l.annotations));
 const description = `Annotated ${song.language.toUpperCase()} lyrics for "${song.title}" by ${song.artist} — with English translations and explanations of idioms, wordplay, cultural references, and slang.`;
 const canonicalURL = `https://jocywolff.com/lyrics/${song.id}`;
 ---
@@ -32,7 +56,66 @@ const canonicalURL = `https://jocywolff.com/lyrics/${song.id}`;
     "description": description,
     "url": canonicalURL
   })} />
-  <div class="md:mx-[1.6cm] flex flex-col md:gap-[1.4cm]">
-    <LyricsDisplay song={song} client:load />
+
+  <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col gap-8">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-3">
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">{song.title}</h1>
+        <p class="text-gray-500">{song.artist}</p>
+      </div>
+      {song.spotifyId && (
+        <iframe
+          src={`https://open.spotify.com/embed/track/${song.spotifyId}?utm_source=generator`}
+          width="100%"
+          height="80"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+          class="rounded-xl"
+        />
+      )}
+    </div>
+
+    <!-- Sections -->
+    {song.sections.map((section) => (
+      <div class="relative flex gap-10" data-section={section.id}>
+
+        <!-- Lyrics: original | translation -->
+        <div class="flex-1 grid grid-cols-2 gap-x-6 content-start">
+          <h3 class="col-span-2 text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">
+            {section.label}
+          </h3>
+          {section.lines.map((line) => (
+            <>
+              <div class="text-gray-400 text-sm self-start pb-1.5">
+                {segmentLine(line).map((seg) =>
+                  seg.ann
+                    ? <mark data-ann={seg.ann.id} class="bg-yellow-200 rounded px-0.5 not-italic cursor-pointer">{seg.text}</mark>
+                    : <span>{seg.text}</span>
+                )}
+              </div>
+              <div class="text-gray-900 self-start pb-1.5">{line.translation}</div>
+            </>
+          ))}
+        </div>
+
+        <!-- Vertical divider (desktop only) -->
+        <div class="hidden lg:block w-px bg-gray-200 shrink-0 self-stretch" />
+
+        <!-- Annotation column: empty layout placeholder, React portals cards in here -->
+        <div
+          class="hidden lg:block relative shrink-0 overflow-visible"
+          style="width: 340px; min-height: 1px"
+          data-ann-col={section.id}
+        />
+
+      </div>
+    ))}
+
   </div>
+
+  {allAnnotations.length > 0 && (
+    <AnnotationLayer client:load annotations={allAnnotations} />
+  )}
 </Base>
