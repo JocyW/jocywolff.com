@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SongEditor } from '../../features/lyrics/SongEditor';
+import '../../index.css';
+---
+<Base title="Lyrics Editor — Jocy Wolff" noindex={true}>
+  <div class="md:mx-[1.6cm] flex flex-col md:gap-[1.4cm]">
+    <SongEditor client:only="react" />
+  </div>
+</Base>
