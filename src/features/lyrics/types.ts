@@ -43,5 +43,6 @@ export type Song = {
   language: string;
   album?: string;
   year?: number;
+  spotifyId?: string;
   sections: LyricSection[];
 };

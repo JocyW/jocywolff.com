@@ -8,6 +8,7 @@ type SongMeta = {
   language: string;
   album: string;
   year: string;
+  spotifyId: string;
 };
 
 type AnnotationDraft = {
@@ -115,6 +116,7 @@ function buildSong(id: string, sections: LyricSection[], meta: SongMeta) {
     language: meta.language,
     ...(meta.album ? { album: meta.album } : {}),
     ...(meta.year ? { year: parseInt(meta.year) } : {}),
+    ...(meta.spotifyId ? { spotifyId: meta.spotifyId } : {}),
     sections
   };
 }
@@ -125,7 +127,8 @@ const DEFAULT_META: SongMeta = {
   artist: '',
   language: '',
   album: '',
-  year: ''
+  year: '',
+  spotifyId: ''
 };
 
 // ---- AutoTextarea ----
@@ -490,6 +493,7 @@ function EditorUI({
           {metaField('Language', 'language', 'e.g. de, nl, fr')}
           {metaField('Album', 'album', 'Album name (optional)')}
           {metaField('Year', 'year', 'e.g. 2019 (optional)')}
+          {metaField('Spotify track ID', 'spotifyId', 'e.g. 4uLU6hMCjMI75M1A2tKUQC')}
         </div>
       </div>
 
@@ -555,7 +559,8 @@ export function SongEditor() {
           artist: song.artist ?? '',
           language: song.language ?? '',
           album: song.album ?? '',
-          year: song.year ? String(song.year) : ''
+          year: song.year ? String(song.year) : '',
+          spotifyId: song.spotifyId ?? ''
         });
         setLoading(false);
       })
