@@ -7,13 +7,13 @@
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "@pulumi/aws": "^7.2.0",
-        "@pulumi/awsx": "^3.0.0",
-        "@pulumi/pulumi": "^3.187.0",
+        "@pulumi/aws": "7.43.0",
+        "@pulumi/awsx": "3.8.0",
+        "@pulumi/pulumi": "3.259.0",
         "ts-node": "10"
     },
     "resolutions": {
         "picomatch": "^4.0.4",
-        "fast-xml-parser": "^5.5.10"
+        "fast-xml-parser": "^5.11.0"
     }
 }

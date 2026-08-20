@@ -1,9 +1,10 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import autoprefixer from 'autoprefixer';
 import fs from 'node:fs';
 import path from 'node:path';
+import tailwind from 'tailwindcss';
 import { fileURLToPath } from 'node:url';
 
 const songsDir = path.join(
@@ -77,12 +78,16 @@ export default defineConfig({
   site: 'https://jocywolff.com',
   integrations: [
     react(),
-    tailwind({ applyBaseStyles: false }),
     sitemap({
       filter: (page) => !page.includes('/lyrics-editor'),
     }),
   ],
   vite: {
+    css: {
+      postcss: {
+        plugins: [tailwind(), autoprefixer()],
+      },
+    },
     plugins: [localSongsApi()],
   },
 });
