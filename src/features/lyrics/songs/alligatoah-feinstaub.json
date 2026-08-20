@@ -1,0 +1,672 @@
+{
+  "id": "alligatoah-feinstaub",
+  "title": "Feinstaub",
+  "artist": "Alligatoah",
+  "language": "de",
+  "album": "Rotz & Wasser",
+  "year": 2022,
+  "spotifyId": "0Ck6IFUF0FrNTUwVy6jJ49",
+  "sections": [
+    {
+      "id": "93b98b7e-dbcd-45f9-b6dc-e7dbdb5cf731",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": [
+            {
+              "id": "fe9c814a-c9a6-47ee-9166-522b05f9b1e6",
+              "originalPhrase": "Feinstaub",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Feinstaub' is the German technical term for fine particulate matter: tiny airborne particles produced by sources such as engines, brakes, and industry. The clinical pollution term becomes a vindictive gift to an ex-partner.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff",
+          "translation": "Into your mouth, baby; smell the exhaust, smell the exhaust",
+          "annotations": []
+        },
+        {
+          "original": "Wenn ich reinhau'",
+          "translation": "When I floor it",
+          "annotations": []
+        },
+        {
+          "original": "Dicke Luft und viel zu laut, und viel zu laut",
+          "translation": "The air is thick and it's way too loud, way too loud",
+          "annotations": [
+            {
+              "id": "1bce4b15-d96b-4f73-a2d8-c4b42d84c1c6",
+              "originalPhrase": "Dicke Luft",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Dicke Luft' literally means thick or polluted air, but it is also an idiom for tension, hostility, or trouble between people. Both meanings apply to the breakup and the exhaust fumes.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Aber ich scheiß' drauf",
+          "translation": "But I don't give a shit",
+          "annotations": []
+        },
+        {
+          "original": "Gebe Gas, es quietscht und raucht, das Spiel ist aus",
+          "translation": "I hit the gas, it squeals and smokes; the game is over",
+          "annotations": [
+            {
+              "id": "c723196b-3b1b-419e-9759-8c5d3c398762",
+              "originalPhrase": "Gebe Gas",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Gas geben' literally means to accelerate. Figuratively, it means to go all out or put in maximum effort, linking reckless driving with the narrator's aggressive breakup performance.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Das ist der Kreislauf",
+          "translation": "That's the cycle",
+          "annotations": [
+            {
+              "id": "4a0dc2fd-32f8-42af-8700-f32d1c7cd9c7",
+              "originalPhrase": "Kreislauf",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Kreislauf' can be a biological circulation or a repeating cycle, and is common in environmental compounds such as recycling and ecological cycles. Here it also suggests a recurring cycle of relationships and retaliation.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Ich scheiß' drauf",
+          "translation": "I don't give a shit",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "a6d20da6-52fa-44e1-a730-6501ca138e63",
+      "type": "verse",
+      "label": "Part 1",
+      "lines": [
+        {
+          "original": "Zwischen uns gab es ein'n radikalen Klimawandel",
+          "translation": "There was radical climate change between us",
+          "annotations": [
+            {
+              "id": "1f8b5923-9d1c-47e8-8383-db89e21ee7df",
+              "originalPhrase": "Klimawandel",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Klima' can describe both the climate and the emotional atmosphere between people. Their relationship climate changing becomes literal climate change.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Und es reicht mir wie eine Energiesparlampe (Yeah)",
+          "translation": "And I've had enough, like an energy-saving bulb (Yeah)",
+          "annotations": [
+            {
+              "id": "14a58f53-4edf-4dae-bdfc-f53866f070cb",
+              "originalPhrase": "es reicht mir wie eine Energiesparlampe",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Es reicht mir' means 'I've had enough.' The deliberately strained comparison adds an energy-saving bulb simply to continue the environmental vocabulary; such a bulb also 'reicht lange,' or lasts a long time.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Ich brauch' dich etwa so wie Hepatitis",
+          "translation": "I need you about as much as I need hepatitis",
+          "annotations": []
+        },
+        {
+          "original": "Du bist das Letzte, was mir je passiert ist",
+          "translation": "You're the worst thing that has ever happened to me",
+          "annotations": [
+            {
+              "id": "2ae00166-8c9d-49c3-a976-cf43b4241570",
+              "originalPhrase": "das Letzte",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Das Letzte' literally means 'the last thing,' but as an idiom it means something or someone is the absolute worst.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Ja, es ist Raubbau an deinen Gefühlen mit rauen Worten",
+          "translation": "Yeah, I'm strip-mining your feelings with harsh words",
+          "annotations": [
+            {
+              "id": "e86e19cc-db98-4aeb-946d-db66086d3701",
+              "originalPhrase": "Raubbau an deinen Gefühlen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Raubbau' is the ruthless, unsustainable exploitation of natural resources. The next line extends the metaphor by asking future partners to 'reforest' the emotional damage.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Kommende Generationen von Partnern können das wieder aufforsten",
+          "translation": "Future generations of partners can reforest them",
+          "annotations": []
+        },
+        {
+          "original": "Ich hau' berechnend auf den Tisch, das sind Faustformeln",
+          "translation": "I calculatedly bang my fist on the table - those are rules of thumb",
+          "annotations": [
+            {
+              "id": "e5dac064-e400-4507-bbcb-74f9d89c0dbd",
+              "originalPhrase": "berechnend auf den Tisch, das sind Faustformeln",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Berechnend' means calculating, while a 'Faustformel' is a rough formula or rule of thumb. 'Faust' also literally means fist, matching him banging on the table.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Dass mein Körper checkt, dass wir dich aussortier'n, ah",
+          "translation": "So my body gets the message that we're sorting you out, ah",
+          "annotations": [
+            {
+              "id": "793dd4e5-c13f-446f-a776-222ed240d774",
+              "originalPhrase": "aussortier'n",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Aussortieren' means to reject or remove someone, but it also describes sorting waste into separate recycling categories.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "(„Sei doch keine Drama-Queen“)",
+          "translation": "(‘Don't be such a drama queen’)",
+          "annotations": []
+        },
+        {
+          "original": "Brülle ich mit kahlrasiertem Schädel aus dem Lamborghini und mein Mascara fließt",
+          "translation": "I yell from a Lamborghini with my head shaved bald and my mascara running",
+          "annotations": []
+        },
+        {
+          "original": "Das ist der Ausstieg (Bye), au revoir, Paris",
+          "translation": "This is the withdrawal (bye), au revoir, Paris",
+          "annotations": [
+            {
+              "id": "038bd933-d8a8-4c10-a013-f018f6de7fd0",
+              "originalPhrase": "Ausstieg (Bye), au revoir, Paris",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The breakup 'exit' echoes withdrawal from the Paris Agreement on climate change. Donald Trump announced the United States' withdrawal in 2017, making it a prominent symbol of rejecting climate commitments.",
+              "category": "historical"
+            }
+          ]
+        },
+        {
+          "original": "Raus aus meinem Narrativ",
+          "translation": "Get out of my narrative",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "67ef4353-bded-4ffc-91d8-9490abcd4c19",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff",
+          "translation": "Into your mouth, baby; smell the exhaust, smell the exhaust",
+          "annotations": []
+        },
+        {
+          "original": "Wenn ich reinhau'",
+          "translation": "When I floor it",
+          "annotations": []
+        },
+        {
+          "original": "Dicke Luft und viel zu laut, und viel zu laut",
+          "translation": "The air is thick and it's way too loud, way too loud",
+          "annotations": []
+        },
+        {
+          "original": "Aber ich scheiß' drauf",
+          "translation": "But I don't give a shit",
+          "annotations": []
+        },
+        {
+          "original": "Gebe Gas, es quietscht und raucht, das Spiel ist aus",
+          "translation": "I hit the gas, it squeals and smokes; the game is over",
+          "annotations": []
+        },
+        {
+          "original": "Das ist der Kreislauf",
+          "translation": "That's the cycle",
+          "annotations": []
+        },
+        {
+          "original": "Ich scheiß' drauf",
+          "translation": "I don't give a shit",
+          "annotations": []
+        },
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "6432f381-1fcc-4d25-8839-e76a36cce7e7",
+      "type": "chorus",
+      "label": "Post-Hook",
+      "lines": [
+        {
+          "original": "Oh-oh-oh-oh, ich geb' dir Feinstaub",
+          "translation": "Oh-oh-oh-oh, I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "Oh-oh-oh-oh, ich geb' dir Feinstaub",
+          "translation": "Oh-oh-oh-oh, I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "Oh-oh-oh-oh, das ist der Kreislauf",
+          "translation": "Oh-oh-oh-oh, that's the cycle",
+          "annotations": []
+        },
+        {
+          "original": "Ich scheiß' drauf",
+          "translation": "I don't give a shit",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "d131b797-032f-4fa5-a5d2-dda031ea8185",
+      "type": "verse",
+      "label": "Part 2",
+      "lines": [
+        {
+          "original": "Ja, ich lag in deinem Schoß, mal am lachen, mal am heul'n",
+          "translation": "Yeah, I lay in your lap, sometimes laughing, sometimes crying",
+          "annotations": []
+        },
+        {
+          "original": "Aber hast du dafür Zeugen? What?",
+          "translation": "But do you have any witnesses to that? What?",
+          "annotations": []
+        },
+        {
+          "original": "Auf manchen Bildern frohlocke ich wie am Honigtopf",
+          "translation": "In some pictures I'm beaming like I've found the honey pot",
+          "annotations": []
+        },
+        {
+          "original": "Doch nicht mehr lange, ich hab' Photoshop, ey",
+          "translation": "But not for much longer; I've got Photoshop, ey",
+          "annotations": []
+        },
+        {
+          "original": "Du verschwindest, als würdest du das Regime kritisieren",
+          "translation": "You'll disappear as if you had criticized the regime",
+          "annotations": [
+            {
+              "id": "e9acbd9a-dde8-4602-90c2-70c777c5e006",
+              "originalPhrase": "als würdest du das Regime kritisieren",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The narrator compares digitally erasing an ex-partner with authoritarian regimes making dissidents disappear and removing them from official records or photographs.",
+              "category": "historical"
+            }
+          ]
+        },
+        {
+          "original": "Hast nie existiert, Geschichte wird von Siegern geschrieben",
+          "translation": "You never existed; history is written by the victors",
+          "annotations": []
+        },
+        {
+          "original": "Wenn jemand fragt, leugne ich das Emotionsgewicht",
+          "translation": "If anyone asks, I'll deny the emotional weight",
+          "annotations": [
+            {
+              "id": "a6f36aea-d1e5-4889-9b0c-f80160d479a9",
+              "originalPhrase": "leugne ich das Emotionsgewicht",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Denying the relationship's emotional significance is phrased like denying measurable environmental impact, echoing the language of climate-change denial.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Du warst in meiner Vorgeschichte nur ein Vogelschiss (Mhh)",
+          "translation": "You were only a speck of bird shit in my history (Mmh)",
+          "annotations": [
+            {
+              "id": "df58f868-2f06-4fb9-8409-366ce22d6b44",
+              "originalPhrase": "nur ein Vogelschiss",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "This invokes a notorious 2018 statement by AfD politician Alexander Gauland, who called the Nazi era a mere 'speck of bird shit' in Germany's long history. The narrator uses the same revisionist minimization for his relationship.",
+              "category": "historical"
+            }
+          ]
+        },
+        {
+          "original": "Da hängt von uns so ein romantisches Brückenschloss",
+          "translation": "There's one of those romantic love locks of ours hanging on a bridge",
+          "annotations": [
+            {
+              "id": "08600206-db24-4418-835a-9402057048c1",
+              "originalPhrase": "Brückenschloss",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Couples attach engraved padlocks to bridges as symbols of lasting love, often throwing the key into the water. Keeping the key reveals that the narrator never fully committed to the symbolism.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Doch Gott sei Dank hab' ich den Schlüssel noch",
+          "translation": "But thank God I still have the key",
+          "annotations": []
+        },
+        {
+          "original": "Rücksichtslos, auch unser Baumherz küsst Diesel",
+          "translation": "Without looking back, even our tree-heart gets a kiss of diesel",
+          "annotations": [
+            {
+              "id": "f03d5595-2310-44fd-b064-8cfa3c12d14d",
+              "originalPhrase": "Rücksichtslos",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Rücksichtslos' normally means inconsiderate or ruthless, but literally contains 'Rücksicht' - looking backward. The next line covers the rear-view mirror, making him literally unable to look back.",
+              "category": "wordplay"
+            },
+            {
+              "id": "04aed160-269c-4249-ad04-b0430a6163e2",
+              "originalPhrase": "Baumherz küsst Diesel",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "A heart carved into a tree is another romantic keepsake. Having it 'kiss diesel' combines destroying that memory with the song's deliberately polluting vehicle imagery.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Socke übern Rückspiegel",
+          "translation": "A sock over the rear-view mirror",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "42448b14-615d-48ec-a4f3-7dfb241dc44a",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff",
+          "translation": "Into your mouth, baby; smell the exhaust, smell the exhaust",
+          "annotations": []
+        },
+        {
+          "original": "Wenn ich reinhau'",
+          "translation": "When I floor it",
+          "annotations": []
+        },
+        {
+          "original": "Dicke Luft und viel zu laut, und viel zu laut",
+          "translation": "The air is thick and it's way too loud, way too loud",
+          "annotations": []
+        },
+        {
+          "original": "Aber ich scheiß' drauf",
+          "translation": "But I don't give a shit",
+          "annotations": []
+        },
+        {
+          "original": "Gebe Gas, es quietscht und raucht, das Spiel ist aus",
+          "translation": "I hit the gas, it squeals and smokes; the game is over",
+          "annotations": []
+        },
+        {
+          "original": "Das ist der Kreislauf",
+          "translation": "That's the cycle",
+          "annotations": []
+        },
+        {
+          "original": "Ich scheiß' drauf",
+          "translation": "I don't give a shit",
+          "annotations": []
+        },
+        {
+          "original": "Ich geb' dir Feinstaub (Huh)",
+          "translation": "I'll give you particulate matter (Huh)",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "ba48d68b-d78b-4988-b4a5-c00f9ac987e3",
+      "type": "chorus",
+      "label": "Post-Hook",
+      "lines": [
+        {
+          "original": "Oh-oh-oh-oh, ich geb' dir Feinstaub (Huh)",
+          "translation": "Oh-oh-oh-oh, I'll give you particulate matter (Huh)",
+          "annotations": []
+        },
+        {
+          "original": "Oh-oh-oh-oh, ich geb' dir Feinstaub",
+          "translation": "Oh-oh-oh-oh, I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "Oh-oh-oh-oh, das ist der Kreislauf",
+          "translation": "Oh-oh-oh-oh, that's the cycle",
+          "annotations": []
+        },
+        {
+          "original": "Ich scheiß' drauf",
+          "translation": "I don't give a shit",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "e623889c-5be3-4b52-a574-6f555d791520",
+      "type": "verse",
+      "label": "Part 3",
+      "lines": [
+        {
+          "original": "Liebe deinen Nächsten, ja, ich liebe schon die Nächsten",
+          "translation": "Love thy neighbor - yeah, I'm already loving the next ones",
+          "annotations": [
+            {
+              "id": "ef3966d0-87ba-4919-9131-40b99b7fb739",
+              "originalPhrase": "Liebe deinen Nächsten, ja, ich liebe schon die Nächsten",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Liebe deinen Nächsten' is the biblical commandment 'love thy neighbor.' Repeating 'die Nächsten' in the plural changes it to the next romantic partners in line.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Dich liebe ich wie meinen Kieferorthopäden",
+          "translation": "I love you the way I love my orthodontist",
+          "annotations": []
+        },
+        {
+          "original": "Guck, ich flieg' nach Indonesien, Lonesome Ride",
+          "translation": "Look, I'm flying to Indonesia, lonesome ride",
+          "annotations": []
+        },
+        {
+          "original": "Ich hab' dich abgewählt, du warst meine Verbotspartei, oh",
+          "translation": "I voted you out; you were my nanny-state party, oh",
+          "annotations": [
+            {
+              "id": "d913a2e4-ef52-46c6-9f8e-10dad5fcac74",
+              "originalPhrase": "Verbotspartei",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Verbotspartei' literally means 'prohibition party' and is a political attack implying that a party wants to control everyday behavior. In German debate it is frequently directed at the Greens, especially over environmental rules.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Du warst allergisch auf Fisch, hieltest mich ab vom Fisch",
+          "translation": "You were allergic to fish and kept me away from fish",
+          "annotations": []
+        },
+        {
+          "original": "Heut ess' ich jeden Tag Fisch (Wouh) – ich hasse Fisch",
+          "translation": "Now I eat fish every day (Woo) - I hate fish",
+          "annotations": []
+        },
+        {
+          "original": "Ich richte mich bergauf (Ah), ich bin nicht im Leerlauf (Nein)",
+          "translation": "I'm heading uphill (Ah); I'm not idling (No)",
+          "annotations": [
+            {
+              "id": "b4c58646-2243-434f-b4fb-f39e34299f3f",
+              "originalPhrase": "bergauf (Ah), ich bin nicht im Leerlauf",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Bergauf gehen' means that things are improving, while 'Leerlauf' can mean inactivity and an engine idling in neutral. The self-help claim remains inside the driving metaphor.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Nein, ich leg' zuerst auf",
+          "translation": "No, I'm hanging up first",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "a63580f1-4f21-4040-922b-5b7bb61e3390",
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "original": "Liebe ist alle, Liebe ist alle, Liebe ist alle, ey",
+          "translation": "Love is all gone, love is all gone, love is all gone, ey",
+          "annotations": [
+            {
+              "id": "8f0a75de-fc49-492f-8363-4f85f5f528b8",
+              "originalPhrase": "Liebe ist alle",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "In colloquial German, especially childlike speech, saying something 'ist alle' means it has all been used up or is gone. The phrase can misleadingly resemble the English declaration 'love is all.'",
+              "category": "wordplay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6cafe74e-5400-4cd0-8641-37782ebbb91e",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "(In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff) Oh-oh-oh-oh",
+          "translation": "(Into your mouth, baby; smell the exhaust, smell the exhaust) Oh-oh-oh-oh",
+          "annotations": []
+        },
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "(In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff) Oh-oh-oh-oh",
+          "translation": "(Into your mouth, baby; smell the exhaust, smell the exhaust) Oh-oh-oh-oh",
+          "annotations": []
+        },
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        },
+        {
+          "original": "(In dein'n Mund, Baby, riech den Auspuff, riech den Auspuff) Oh-oh-oh-oh",
+          "translation": "(Into your mouth, baby; smell the exhaust, smell the exhaust) Oh-oh-oh-oh",
+          "annotations": []
+        },
+        {
+          "original": "Das ist der Kreislauf",
+          "translation": "That's the cycle",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "6a795e19-fdb2-403a-927e-e365bf7256ba",
+      "type": "outro",
+      "label": "Outro",
+      "lines": [
+        {
+          "original": "Ich geb' dir Feinstaub",
+          "translation": "I'll give you particulate matter",
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
