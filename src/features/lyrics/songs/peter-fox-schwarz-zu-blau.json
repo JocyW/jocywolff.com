@@ -4,7 +4,7 @@
   "artist": "Peter Fox",
   "language": "de",
   "album": "Stadtaffe",
-  "year": 2009,
+  "year": 2008,
   "spotifyId": "1Fjz0ME9pzk553wH86m3ZZ",
   "sections": [
     {
@@ -14,17 +14,27 @@
       "lines": [
         {
           "original": "Komm' ausm Club, war schön gewesen",
-          "translation": "Coming from the club, had been nice",
+          "translation": "I come out of the club; it was a good time",
           "annotations": []
         },
         {
           "original": "Stinke nach Suff, bin kaputt, ist 'n schönes Leben",
-          "translation": "Smelling of ???, am broken, it's a nice life",
-          "annotations": []
+          "translation": "I reek of booze, I'm wrecked - what a beautiful life",
+          "annotations": [
+            {
+              "id": "7f10470a-eb2f-410f-9728-b07615f7e99b",
+              "originalPhrase": "Suff",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Suff' is colloquial German for heavy drinking or the resulting state and smell of drunkenness.",
+              "category": "slang"
+            }
+          ]
         },
         {
           "original": "Steig' über Schnapsleichen, die auf meinem Weg verwesen",
-          "translation": "Stepping over drunkards, who are rotting on my way",
+          "translation": "I step over passed-out drunks decaying in my path",
           "annotations": [
             {
               "id": "2450aecc-6081-4231-b5b1-eb7f8d28c10b",
@@ -32,86 +42,166 @@
               "phrase": "",
               "start": 0,
               "end": 0,
-              "body": "\"Schanpsleichen\" literally means \"liquor-corpses\" and generally describes people so drunk they lost control, so the rotting is a play on words.",
+              "body": "'Schnapsleichen' literally means 'liquor corpses' and colloquially describes people who are extremely drunk or passed out. Saying they are decaying extends the corpse metaphor.",
               "category": "wordplay"
             }
           ]
         },
         {
           "original": "Ich seh' die Ratten sich satt fressen im Schatten der Dönerläden",
-          "translation": "I see rats stuffing themselves in the shadow of a kebab shop",
-          "annotations": []
+          "translation": "I watch the rats eat their fill in the shadows of the döner shops",
+          "annotations": [
+            {
+              "id": "34334eb5-e766-47c6-af9d-9b0d5e6ff4ee",
+              "originalPhrase": "Dönerläden",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Döner kebab shops are a defining part of Berlin's late-night food culture, shaped by the city's large Turkish-German community.",
+              "category": "cultural_reference"
+            }
+          ]
         },
         {
           "original": "Stapf' durch die Kotze am Kotti, Junks sind benebelt",
-          "translation": "Stepping through sick at the Kotti, junkies are ???",
-          "annotations": []
+          "translation": "I trudge through vomit at Kotti; junkies are in a haze",
+          "annotations": [
+            {
+              "id": "9cd36659-babd-4076-99fb-dda2ee50fe3b",
+              "originalPhrase": "Kotti",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Kotti' is the common nickname for Kottbusser Tor, a busy U-Bahn station and square in Berlin-Kreuzberg known for nightlife, street activity, and social problems.",
+              "category": "name"
+            }
+          ]
         },
         {
           "original": "Atzen rotzen in die Gegend, benehm'n sich daneben (Woo)",
-          "translation": "People spitting on the floor, ",
-          "annotations": []
+          "translation": "Dudes spit all over the place and behave like assholes (Woo)",
+          "annotations": [
+            {
+              "id": "ea1bbd81-df8f-4a2e-915a-2dd35c4ab947",
+              "originalPhrase": "Atzen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Atzen' is Berlin slang for male friends, mates, or simply a group of guys. Here it dismissively describes rowdy men in the street.",
+              "category": "slang"
+            }
+          ]
         },
         {
           "original": "Szene-Schnösel auf verzweifelter Suche nach der Szene",
-          "translation": "",
-          "annotations": []
+          "translation": "Scene snobs desperately searching for the scene",
+          "annotations": [
+            {
+              "id": "88d02219-2c6a-4fbc-864b-83ce6fbc2fa7",
+              "originalPhrase": "Szene-Schnösel auf verzweifelter Suche nach der Szene",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Szene' can mean both a cultural or nightlife scene and the place where something is happening. The self-important scene crowd is ironically still searching for it.",
+              "category": "wordplay"
+            }
+          ]
         },
         {
           "original": "Gepiercte Mädels, die woll'n, dass ich strassenfeger lese, eh",
-          "translation": "",
-          "annotations": []
+          "translation": "Pierced girls who want me to read strassenfeger, eh",
+          "annotations": [
+            {
+              "id": "aa2e9cea-8ff5-412a-981b-17dce8c1e507",
+              "originalPhrase": "strassenfeger",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'strassenfeger' is a Berlin street magazine focused on poverty and homelessness. It is sold by people experiencing homelessness or financial hardship as a source of income.",
+              "category": "name"
+            }
+          ]
         },
         {
           "original": "Halb sechs, meine Augen brenn'n",
-          "translation": "Half five, my eyes are burn'in",
-          "annotations": []
+          "translation": "Half past five, my eyes are burning",
+          "annotations": [
+            {
+              "id": "874c2f54-973d-4590-b982-084985ee67ca",
+              "originalPhrase": "Halb sechs",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "German 'halb sechs' means halfway to six, or 5:30. This differs from British English 'half six,' which means 6:30.",
+              "category": "cultural_reference"
+            }
+          ]
         },
         {
           "original": "Tret' auf 'n Typen, der zwischen toten Tauben pennt",
-          "translation": "Stepping on a guy, who's sleeping between two dead pigeons ",
+          "translation": "I step on a guy sleeping between dead pigeons",
           "annotations": []
         },
         {
           "original": "Hysterische Bräute keifen und haben Panik, denn",
-          "translation": "Hysteric girls screaming and are in panic, because",
+          "translation": "Hysterical girls screech and panic, because",
           "annotations": []
         },
         {
           "original": "An der Ecke gibt es Stress zwischen Tarek und Sam",
-          "translation": "On the corner there is beef between Tarek and Sam",
+          "translation": "There's trouble on the corner between Tarek and Sam",
           "annotations": []
         },
         {
           "original": "Tarek sagt: „Halt's Maul oder ich werd' dir ins Gesicht schlagen“",
-          "translation": "Tarek says: \"Shut up or I'll hit you in the face\"",
+          "translation": "Tarek says, ‘Shut up or I'll hit you in the face’",
           "annotations": []
         },
         {
           "original": "Sam hat die Hosen voll, aber kann auch nicht nichts sagen",
-          "translation": "Sam ???, but cannot stay silent",
-          "annotations": []
+          "translation": "Sam is scared shitless, but he can't just say nothing either",
+          "annotations": [
+            {
+              "id": "35f9d647-8606-4bfb-bcbe-d018101921c9",
+              "originalPhrase": "hat die Hosen voll",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Die Hosen voll haben' literally means to have full trousers and idiomatically means to be extremely frightened, similar to being 'scared shitless.'",
+              "category": "idiom"
+            }
+          ]
         },
         {
           "original": "Die rote Suppe tropft auf den Asphalt",
-          "translation": "",
-          "annotations": []
+          "translation": "The red soup drips onto the asphalt",
+          "annotations": [
+            {
+              "id": "b82afe89-7f50-4170-8cb5-93339465b253",
+              "originalPhrase": "rote Suppe",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Red soup' is a deliberately grotesque euphemism for blood, implying that the threatened fight has turned violent.",
+              "category": "wordplay"
+            }
+          ]
         },
         {
           "original": "Mir wird schlecht, ich mach' die Jacke zu, denn es ist kalt",
-          "translation": "I'm getting sick, I close the the coat, because it's cold",
+          "translation": "I feel nauseous and pull my jacket closed because it's cold",
           "annotations": []
         }
       ]
     },
     {
       "id": "e20d450b-dcc7-4bc8-b36e-80d017c087e4",
-      "type": "verse",
+      "type": "chorus",
       "label": "Hook",
       "lines": [
         {
           "original": "Guten Morgen, Berlin, du kannst so hässlich sein",
-          "translation": "Good morning Berlin, you can be so ugly",
+          "translation": "Good morning, Berlin, you can be so ugly",
           "annotations": []
         },
         {
@@ -121,33 +211,43 @@
         },
         {
           "original": "Du kannst so schön schrecklich sein",
-          "translation": "You can be so beautifully ",
+          "translation": "You can be so beautifully awful",
           "annotations": []
         },
         {
           "original": "Deine Nächte fressen mich auf",
-          "translation": "",
+          "translation": "Your nights devour me",
           "annotations": []
         },
         {
           "original": "Es wird für mich wohl das Beste sein",
-          "translation": "",
+          "translation": "It will probably be best for me",
           "annotations": []
         },
         {
           "original": "Ich geh' nach Hause und schlaf' mich aus",
-          "translation": "",
+          "translation": "To go home and sleep it off",
           "annotations": []
         },
         {
           "original": "Und während ich durch die Straßen lauf'",
-          "translation": "",
+          "translation": "And as I walk through the streets",
           "annotations": []
         },
         {
           "original": "Wird langsam Schwarz zu Blau",
-          "translation": "",
-          "annotations": []
+          "translation": "Black slowly turns to blue",
+          "annotations": [
+            {
+              "id": "89ce0ea6-0264-4e81-8179-f28fb0063ff9",
+              "originalPhrase": "Schwarz zu Blau",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The title describes the black night sky turning blue at dawn as the narrator walks home. The changing light softens Berlin without making the city itself any cleaner or prettier.",
+              "category": "wordplay"
+            }
+          ]
         }
       ]
     },
@@ -158,22 +258,22 @@
       "lines": [
         {
           "original": "Müde Gestalten im Neonlicht",
-          "translation": "",
+          "translation": "Tired figures in the neon light",
           "annotations": []
         },
         {
           "original": "Mit tiefen Falten im Gesicht",
-          "translation": "",
+          "translation": "With deep lines in their faces",
           "annotations": []
         },
         {
           "original": "Die Frühschicht schweigt, jeder bleibt für sich",
-          "translation": "",
+          "translation": "The early shift is silent; everyone keeps to themselves",
           "annotations": []
         },
         {
           "original": "Frust kommt auf, denn der Bus kommt nicht",
-          "translation": "",
+          "translation": "Frustration sets in because the bus doesn't come",
           "annotations": []
         }
       ]
@@ -185,74 +285,114 @@
       "lines": [
         {
           "original": "Und überall liegt Scheiße, man muss eigentlich schweben",
-          "translation": "",
+          "translation": "And there's shit everywhere; you really ought to float",
           "annotations": []
         },
         {
           "original": "Jeder hat 'n Hund, aber kein'n zum Reden",
-          "translation": "",
+          "translation": "Everyone has a dog but no one to talk to",
           "annotations": []
         },
         {
           "original": "Ich atme ständig durch den Mund, das ist Teil meines Lebens",
-          "translation": "",
+          "translation": "I constantly breathe through my mouth; it's part of my life",
           "annotations": []
         },
         {
           "original": "Ich fühl' mich ungesund, brauch' was Reines dagegen, ah",
-          "translation": "",
+          "translation": "I feel unhealthy and need something pure to counter it, ah",
           "annotations": []
         },
         {
           "original": "Ich hab' 'n dicken Kopf, ich muss 'n Saft haben",
-          "translation": "",
-          "annotations": []
+          "translation": "I've got a pounding head; I need some juice",
+          "annotations": [
+            {
+              "id": "807cc23c-9d86-4731-ae00-3150076f5c03",
+              "originalPhrase": "dicken Kopf",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Having a 'dicker Kopf' literally means having a thick or swollen head. Colloquially it describes a headache or hangover, fitting the morning after the club.",
+              "category": "idiom"
+            }
+          ]
         },
         {
           "original": "Ich hab' dringlichen Bock auf Bagdads Backwar'n",
-          "translation": "",
-          "annotations": []
+          "translation": "I'm desperate for some of Baghdad's baked goods",
+          "annotations": [
+            {
+              "id": "747b6ea7-440b-4416-b188-24fe53c02c96",
+              "originalPhrase": "Bock auf Bagdads Backwar'n",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Bock auf' is slang for wanting or craving something. The repeated B sounds in 'Bock auf Bagdads Backwaren' turn that craving into conspicuous alliteration.",
+              "category": "wordplay"
+            }
+          ]
         },
         {
           "original": "Da ist es warm, da geb' ich mich meinen Träumen hin",
-          "translation": "",
+          "translation": "It's warm in there, and I surrender to my dreams",
           "annotations": []
         },
         {
           "original": "Bei Fatima, der süßen Backwarenverkäuferin",
-          "translation": "",
+          "translation": "At Fatima's, the sweet bakery assistant",
           "annotations": []
         },
         {
           "original": "R&B-Balladen pumpen ausm parkenden Benz (Ouhh)",
-          "translation": "",
-          "annotations": []
+          "translation": "R&B ballads thump from a parked Benz (Ooh)",
+          "annotations": [
+            {
+              "id": "78d27804-268c-4786-82cd-5abe848b465b",
+              "originalPhrase": "Benz",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Benz' is a common shorthand for a Mercedes-Benz car.",
+              "category": "slang"
+            }
+          ]
         },
         {
           "original": "Feierabend für die Straßengangs",
-          "translation": "",
-          "annotations": []
+          "translation": "The street gangs are calling it a day",
+          "annotations": [
+            {
+              "id": "99a9239c-8783-47a8-8668-1a50516f45ed",
+              "originalPhrase": "Feierabend",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Feierabend' is the end of the working day and the leisure time after it. Applying the term to street gangs humorously treats their nighttime activity like ordinary shift work.",
+              "category": "wordplay"
+            }
+          ]
         },
         {
           "original": "'n Hooligan liegt 'ner Frau in den Armen und flennt",
-          "translation": "",
+          "translation": "A hooligan lies sobbing in a woman's arms",
           "annotations": []
         },
         {
           "original": "Diese Stadt ist eben doch gar nicht so hart, wie du denkst",
-          "translation": "",
+          "translation": "This city isn't as tough as you think after all",
           "annotations": []
         }
       ]
     },
     {
       "id": "9f3da4ef-a4ab-45c7-899f-cb89d8f736d4",
-      "type": "verse",
+      "type": "chorus",
       "label": "Hook",
       "lines": [
         {
           "original": "Guten Morgen, Berlin, du kannst so hässlich sein",
-          "translation": "Good morning Berlin, you can be so ugly",
+          "translation": "Good morning, Berlin, you can be so ugly",
           "annotations": []
         },
         {
@@ -262,72 +402,72 @@
         },
         {
           "original": "Du kannst so schön schrecklich sein",
-          "translation": "You can be so beautifully ",
+          "translation": "You can be so beautifully awful",
           "annotations": []
         },
         {
           "original": "Deine Nächte fressen mich auf",
-          "translation": "",
+          "translation": "Your nights devour me",
           "annotations": []
         },
         {
           "original": "Es wird für mich wohl das Beste sein",
-          "translation": "",
+          "translation": "It will probably be best for me",
           "annotations": []
         },
         {
           "original": "Ich geh' nach Hause und schlaf' mich aus",
-          "translation": "",
+          "translation": "To go home and sleep it off",
           "annotations": []
         },
         {
           "original": "Und während ich durch die Straßen lauf'",
-          "translation": "",
+          "translation": "And as I walk through the streets",
           "annotations": []
         },
         {
           "original": "Wird langsam Schwarz zu Blau",
-          "translation": "",
+          "translation": "Black slowly turns to blue",
           "annotations": []
         },
         {
           "original": "Ich bin kaputt und reib' mir aus",
-          "translation": "",
+          "translation": "I'm wrecked, and I rub",
           "annotations": []
         },
         {
           "original": "Meinen Augen deinen Staub",
-          "translation": "",
+          "translation": "Your dust out of my eyes",
           "annotations": []
         },
         {
           "original": "Du bist nicht schön und das weißt du auch",
-          "translation": "",
+          "translation": "You're not beautiful, and you know it too",
           "annotations": []
         },
         {
           "original": "Dein Panorama versaut",
-          "translation": "",
+          "translation": "Your skyline is a mess",
           "annotations": []
         },
         {
           "original": "Siehst nicht mal schön von Weit'm aus",
-          "translation": "",
+          "translation": "You don't even look pretty from afar",
           "annotations": []
         },
         {
           "original": "Doch die Sonne geht grade auf",
-          "translation": "",
+          "translation": "But the sun is rising right now",
           "annotations": []
         },
         {
           "original": "Und ich weiß, ob ich will oder nicht",
-          "translation": "",
+          "translation": "And I know, whether I like it or not",
           "annotations": []
         },
         {
           "original": "Dass ich dich zum Atmen brauch'",
-          "translation": "",
+          "translation": "That I need you to breathe",
           "annotations": []
         }
       ]
