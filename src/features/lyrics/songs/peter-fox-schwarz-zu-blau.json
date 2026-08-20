@@ -1,0 +1,336 @@
+{
+  "id": "peter-fox-schwarz-zu-blau",
+  "title": "Schwarz zu Blau",
+  "artist": "Peter Fox",
+  "language": "de",
+  "album": "Stadtaffe",
+  "year": 2009,
+  "spotifyId": "1Fjz0ME9pzk553wH86m3ZZ",
+  "sections": [
+    {
+      "id": "88703ef5-3ed4-4430-bfb8-0f734ae447a9",
+      "type": "verse",
+      "label": "Part 1",
+      "lines": [
+        {
+          "original": "Komm' ausm Club, war schön gewesen",
+          "translation": "Coming from the club, had been nice",
+          "annotations": []
+        },
+        {
+          "original": "Stinke nach Suff, bin kaputt, ist 'n schönes Leben",
+          "translation": "Smelling of ???, am broken, it's a nice life",
+          "annotations": []
+        },
+        {
+          "original": "Steig' über Schnapsleichen, die auf meinem Weg verwesen",
+          "translation": "Stepping over drunkards, who are rotting on my way",
+          "annotations": [
+            {
+              "id": "2450aecc-6081-4231-b5b1-eb7f8d28c10b",
+              "originalPhrase": "Schnapsleichen, die auf meinem Weg verwesen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "\"Schanpsleichen\" literally means \"liquor-corpses\" and generally describes people so drunk they lost control, so the rotting is a play on words.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Ich seh' die Ratten sich satt fressen im Schatten der Dönerläden",
+          "translation": "I see rats stuffing themselves in the shadow of a kebab shop",
+          "annotations": []
+        },
+        {
+          "original": "Stapf' durch die Kotze am Kotti, Junks sind benebelt",
+          "translation": "Stepping through sick at the Kotti, junkies are ???",
+          "annotations": []
+        },
+        {
+          "original": "Atzen rotzen in die Gegend, benehm'n sich daneben (Woo)",
+          "translation": "People spitting on the floor, ",
+          "annotations": []
+        },
+        {
+          "original": "Szene-Schnösel auf verzweifelter Suche nach der Szene",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Gepiercte Mädels, die woll'n, dass ich strassenfeger lese, eh",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Halb sechs, meine Augen brenn'n",
+          "translation": "Half five, my eyes are burn'in",
+          "annotations": []
+        },
+        {
+          "original": "Tret' auf 'n Typen, der zwischen toten Tauben pennt",
+          "translation": "Stepping on a guy, who's sleeping between two dead pigeons ",
+          "annotations": []
+        },
+        {
+          "original": "Hysterische Bräute keifen und haben Panik, denn",
+          "translation": "Hysteric girls screaming and are in panic, because",
+          "annotations": []
+        },
+        {
+          "original": "An der Ecke gibt es Stress zwischen Tarek und Sam",
+          "translation": "On the corner there is beef between Tarek and Sam",
+          "annotations": []
+        },
+        {
+          "original": "Tarek sagt: „Halt's Maul oder ich werd' dir ins Gesicht schlagen“",
+          "translation": "Tarek says: \"Shut up or I'll hit you in the face\"",
+          "annotations": []
+        },
+        {
+          "original": "Sam hat die Hosen voll, aber kann auch nicht nichts sagen",
+          "translation": "Sam ???, but cannot stay silent",
+          "annotations": []
+        },
+        {
+          "original": "Die rote Suppe tropft auf den Asphalt",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Mir wird schlecht, ich mach' die Jacke zu, denn es ist kalt",
+          "translation": "I'm getting sick, I close the the coat, because it's cold",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "e20d450b-dcc7-4bc8-b36e-80d017c087e4",
+      "type": "verse",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Guten Morgen, Berlin, du kannst so hässlich sein",
+          "translation": "Good morning Berlin, you can be so ugly",
+          "annotations": []
+        },
+        {
+          "original": "So dreckig und grau",
+          "translation": "So dirty and grey",
+          "annotations": []
+        },
+        {
+          "original": "Du kannst so schön schrecklich sein",
+          "translation": "You can be so beautifully ",
+          "annotations": []
+        },
+        {
+          "original": "Deine Nächte fressen mich auf",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Es wird für mich wohl das Beste sein",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich geh' nach Hause und schlaf' mich aus",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Und während ich durch die Straßen lauf'",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Wird langsam Schwarz zu Blau",
+          "translation": "",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "03b30456-246b-43b5-9ed6-0d748e7b5a86",
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "original": "Müde Gestalten im Neonlicht",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Mit tiefen Falten im Gesicht",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Die Frühschicht schweigt, jeder bleibt für sich",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Frust kommt auf, denn der Bus kommt nicht",
+          "translation": "",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "bf04945b-8a64-4008-b04a-3e0eaa088981",
+      "type": "verse",
+      "label": "Part 2",
+      "lines": [
+        {
+          "original": "Und überall liegt Scheiße, man muss eigentlich schweben",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Jeder hat 'n Hund, aber kein'n zum Reden",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich atme ständig durch den Mund, das ist Teil meines Lebens",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich fühl' mich ungesund, brauch' was Reines dagegen, ah",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich hab' 'n dicken Kopf, ich muss 'n Saft haben",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich hab' dringlichen Bock auf Bagdads Backwar'n",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Da ist es warm, da geb' ich mich meinen Träumen hin",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Bei Fatima, der süßen Backwarenverkäuferin",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "R&B-Balladen pumpen ausm parkenden Benz (Ouhh)",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Feierabend für die Straßengangs",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "'n Hooligan liegt 'ner Frau in den Armen und flennt",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Diese Stadt ist eben doch gar nicht so hart, wie du denkst",
+          "translation": "",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "9f3da4ef-a4ab-45c7-899f-cb89d8f736d4",
+      "type": "verse",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Guten Morgen, Berlin, du kannst so hässlich sein",
+          "translation": "Good morning Berlin, you can be so ugly",
+          "annotations": []
+        },
+        {
+          "original": "So dreckig und grau",
+          "translation": "So dirty and grey",
+          "annotations": []
+        },
+        {
+          "original": "Du kannst so schön schrecklich sein",
+          "translation": "You can be so beautifully ",
+          "annotations": []
+        },
+        {
+          "original": "Deine Nächte fressen mich auf",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Es wird für mich wohl das Beste sein",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich geh' nach Hause und schlaf' mich aus",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Und während ich durch die Straßen lauf'",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Wird langsam Schwarz zu Blau",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Ich bin kaputt und reib' mir aus",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Meinen Augen deinen Staub",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Du bist nicht schön und das weißt du auch",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Dein Panorama versaut",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Siehst nicht mal schön von Weit'm aus",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Doch die Sonne geht grade auf",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Und ich weiß, ob ich will oder nicht",
+          "translation": "",
+          "annotations": []
+        },
+        {
+          "original": "Dass ich dich zum Atmen brauch'",
+          "translation": "",
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
