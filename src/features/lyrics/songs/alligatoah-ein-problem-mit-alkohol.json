@@ -1,0 +1,577 @@
+{
+  "id": "alligatoah-ein-problem-mit-alkohol",
+  "title": "Ein Problem mit Alkohol",
+  "artist": "Alligatoah",
+  "language": "de",
+  "album": "Schlaftabletten, Rotwein V",
+  "year": 2018,
+  "spotifyId": "0lIX2ce3jiQ0uQg5ABbAsX",
+  "sections": [
+    {
+      "id": "07f25d99-b162-4ecf-a311-245eb5d13d78",
+      "type": "intro",
+      "label": "Intro",
+      "lines": [
+        {
+          "original": "Alli-Alligatoah",
+          "translation": "Alli-Alligatoah",
+          "annotations": []
+        },
+        {
+          "original": "Ah, deeper Shit zwei (deeper Shit)",
+          "translation": "Ah, deeper shit, part two (deeper shit)",
+          "annotations": [
+            {
+              "id": "c6c38b44-2992-486a-a5ab-70425c3c136f",
+              "originalPhrase": "deeper Shit zwei",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The mock-English phrase announces a second helping of supposedly profound material. It sets up the song's satire of performative sadness and self-consciously 'deep' art.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Cheers, ah",
+          "translation": "Cheers, ah",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "a42fc198-bfd0-4aa2-9516-ab820972d5cd",
+      "type": "verse",
+      "label": "Part 1",
+      "lines": [
+        {
+          "original": "Ich trinke viel in diesen Schattentagen",
+          "translation": "I drink a lot throughout these darker days",
+          "annotations": []
+        },
+        {
+          "original": "Wegen der schwierigen Erfahrung, in der Kindheit keinen Schnaps zu haben",
+          "translation": "Because of the traumatic childhood experience of having no liquor",
+          "annotations": [
+            {
+              "id": "572de4e0-7a2c-49d3-869e-853791482530",
+              "originalPhrase": "in der Kindheit keinen Schnaps zu haben",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The line borrows the language of childhood trauma, then undercuts it with the absurd complaint that he did not have hard liquor as a child.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Ah, aber als Aperitif",
+          "translation": "Ah, but as an aperitif",
+          "annotations": []
+        },
+        {
+          "original": "Nehm' ich ein stilles Wasser, denn stille Wasser sind tief",
+          "translation": "I'll have still water, because still waters run deep",
+          "annotations": [
+            {
+              "id": "00844c8e-a7a8-40fd-9da3-b1784c4a08ab",
+              "originalPhrase": "stille Wasser sind tief",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The German proverb is equivalent to 'still waters run deep': quiet people may have hidden depth. Here 'stilles Wasser' also literally means non-carbonated water on a restaurant menu.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Alter, không ai hiểu tôi, ja",
+          "translation": "Dude, không ai hiểu tôi, yeah",
+          "annotations": [
+            {
+              "id": "93acc3da-8d6f-414b-8a2c-f97c5749b759",
+              "originalPhrase": "không ai hiểu tôi",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Vietnamese for 'nobody understands me.' Switching to a language most of his German audience will not understand makes the complaint literally true.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Das ist vietnamesisch und heißt: niemand versteht mich",
+          "translation": "That's Vietnamese for: nobody understands me",
+          "annotations": []
+        },
+        {
+          "original": "Erzähl' der Kellnerin direkt Memoiren",
+          "translation": "I immediately tell the waitress my memoirs",
+          "annotations": []
+        },
+        {
+          "original": "Tja, jeder hat mein Päckchen zu tragen",
+          "translation": "Well, everybody has my baggage to carry",
+          "annotations": [
+            {
+              "id": "862a3166-f69d-4dba-96dc-c86f51dd861b",
+              "originalPhrase": "jeder hat mein Päckchen zu tragen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "This twists 'Jeder hat sein Päckchen zu tragen' ('everyone has their own burden to bear'). The narrator replaces 'their own' with 'my,' expecting everyone else to carry his emotional baggage. Also foreshadows future songs where the artist highlights the working situation of delivery drivers.",
+              "category": "idiom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "68a8311a-a9a7-409a-aa93-4ae286f80ee9",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ja, ich habe ein Problem mit Alkohol",
+          "translation": "Yeah, I have a problem with alcohol",
+          "annotations": []
+        },
+        {
+          "original": "Willst du mich verklagen?",
+          "translation": "Are you going to sue me?",
+          "annotations": []
+        },
+        {
+          "original": "Oder gibt's ein „Ich verlier' den Halt“-Verbot?",
+          "translation": "Or is there a ban on crashing out?",
+          "annotations": []
+        },
+        {
+          "original": "Zeig den Paragraphen",
+          "translation": "Show me the statute",
+          "annotations": []
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": [
+            {
+              "id": "c91f7ce7-5318-4260-a5cb-ae9726f79b84",
+              "originalPhrase": "gutes Recht",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Across the two lines, 'schlecht' (bad) is set against 'gutes Recht,' a fixed expression meaning one's full or perfect right. The narrator turns misery into something worth defensively protecting.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "83b847d3-c7b2-4b33-9fa3-5a40d43a1d6c",
+      "type": "verse",
+      "label": "Part 2",
+      "lines": [
+        {
+          "original": "Yeah, ah, P-Psychologie ist keine Hexenkunst (ne)",
+          "translation": "Yeah, ah, p-psychology isn't witchcraft (no)",
+          "annotations": [
+            {
+              "id": "584a2219-dd24-44cc-825d-f5d144fd2994",
+              "originalPhrase": "keine Hexenkunst",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Keine Hexenkunst' literally means 'not witchcraft' and is used like 'not rocket science': something is not especially difficult or mysterious.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Einsicht ist besser als Besserung",
+          "translation": "Insight is better than getting better",
+          "annotations": [
+            {
+              "id": "62499c8b-1edb-4288-bbd2-da3fedc9dc5f",
+              "originalPhrase": "Einsicht ist besser als Besserung",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "This distorts 'Einsicht ist der erste Schritt zur Besserung' ('recognition is the first step toward improvement'). He prefers recognizing the problem to doing the harder work of changing.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Lass mich, wenn man meine Störung heilt",
+          "translation": "Leave me alone; if you cure my disorder",
+          "annotations": []
+        },
+        {
+          "original": "Was bleibt denn dann von der Persönlichkeit, heh? (heh?)",
+          "translation": "What would be left of my personality, huh? (Huh?)",
+          "annotations": []
+        },
+        {
+          "original": "Ich hab' viel durchgemacht, zum Beispiel letzte Nacht",
+          "translation": "I've been through a lot - last night, for example",
+          "annotations": [
+            {
+              "id": "fc485462-aaae-4683-a3fd-20fc10bab002",
+              "originalPhrase": "viel durchgemacht, zum Beispiel letzte Nacht",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Viel durchgemacht haben' means to have endured a lot, while 'die Nacht durchmachen' means to stay up or party all night. 'Last night' flips the apparent confession of hardship into another reference to excess.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Trinke, um zu vergessen, dass ich eigentlich nichts zu meckern hab'",
+          "translation": "I drink to forget that I actually have nothing to complain about",
+          "annotations": []
+        },
+        {
+          "original": "Es ist nie zu spät für pubertären Mitleidsdrang",
+          "translation": "It's never too late for an adolescent craving for sympathy",
+          "annotations": []
+        },
+        {
+          "original": "Ich fang' mit siebzig mit dem Ritzen an",
+          "translation": "I'll start cutting myself when I'm seventy",
+          "annotations": [
+            {
+              "id": "a2693176-fd1c-4a5c-b476-741972174408",
+              "originalPhrase": "Ritzen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "In this context, 'ritzen' is colloquial German for self-harm by cutting. The deliberately shocking line extends supposedly teenage behavior into old age to mock the narrator's determination to remain self-pitying.",
+              "category": "slang"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c6d8362-bfb4-4e13-8cd2-546c4bec23fa",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ja, ich habe ein Problem mit Alkohol",
+          "translation": "Yeah, I have a problem with alcohol",
+          "annotations": []
+        },
+        {
+          "original": "Willst du mich verklagen?",
+          "translation": "Are you going to sue me?",
+          "annotations": []
+        },
+        {
+          "original": "Oder gibt's ein „Ich verlier' den Halt“-Verbot?",
+          "translation": "Or is there a ban on crashing out?",
+          "annotations": []
+        },
+        {
+          "original": "Zeig den Paragraphen",
+          "translation": "Show me the statute",
+          "annotations": []
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": []
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "726d6f6d-42bc-4402-a026-4253681228ba",
+      "type": "verse",
+      "label": "Part 3",
+      "lines": [
+        {
+          "original": "Graue Wände, die Gebäude hier sind kalt",
+          "translation": "Grey walls, the buildings here are cold",
+          "annotations": []
+        },
+        {
+          "original": "Lyrisch, wie ich bin, nenn' ich das häusliche Gewalt (uhh)",
+          "translation": "Poetic as I am, I call that domestic violence (ooh)",
+          "annotations": [
+            {
+              "id": "db929179-80ac-4573-a710-10e47b32af5e",
+              "originalPhrase": "häusliche Gewalt",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Häusliche Gewalt' is the standard German term for domestic violence. He pretends the hostile-looking buildings are themselves committing violence, turning a serious term into self-congratulatory poetry.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Woah, krass, große Poesie (stark)",
+          "translation": "Whoa, damn, great poetry (powerful)",
+          "annotations": []
+        },
+        {
+          "original": "Ist das noch 'ne Songzeile oder schon ein Tweet?",
+          "translation": "Is that still a song lyric, or already a tweet?",
+          "annotations": [
+            {
+              "id": "8c9bb155-1b6f-40fd-bcfe-a192464149cb",
+              "originalPhrase": "Songzeile oder schon ein Tweet",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "When the song was released in 2018, Twitter's short posts were strongly associated with compact observations and performative wit. The line questions whether his supposedly profound lyric is merely social-media content.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Wow, wie kommst du drauf, dass Kafka mein Buchgeschmack ist?",
+          "translation": "Wow, what made you think Kafka is my literary taste?",
+          "annotations": [
+            {
+              "id": "a1db7f1c-5362-49d2-ae8c-2ba9f166f87e",
+              "originalPhrase": "Kafka",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Franz Kafka's writing is associated with alienation, anxiety, and oppressive, absurd systems. The exaggerated collection of Kafka merchandise satirizes using that reputation as a conspicuous badge of intellectual depth.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Achso, wegen meiner Kafka-Kapuzenjacke",
+          "translation": "Oh, right, because of my Kafka hoodie",
+          "annotations": []
+        },
+        {
+          "original": "Und meinem ganz subtilen Kafka-Tattoo im Nacken",
+          "translation": "And my very subtle Kafka tattoo on the back of my neck",
+          "annotations": []
+        },
+        {
+          "original": "Und weil ich niemanden mit Kafka in Ruhe lasse",
+          "translation": "And because I won't leave anyone alone about Kafka",
+          "annotations": []
+        },
+        {
+          "original": "Oder war's doch meine Kafka-Figur aus Pappe?",
+          "translation": "Or was it my cardboard Kafka figure?",
+          "annotations": []
+        },
+        {
+          "original": "Ich mag die alten Sachen lieber als die New-Age-Kacke",
+          "translation": "I prefer the old stuff to the New Age crap",
+          "annotations": []
+        },
+        {
+          "original": "Deepe Gedanken sind ein schweres Los",
+          "translation": "Deep thoughts are a heavy burden",
+          "annotations": []
+        },
+        {
+          "original": "Sag' in ernstem Ton, „Boah, es gibt mega viele Sterne so.“",
+          "translation": "I say solemnly, ‘Whoa, there are, like, so many stars.’",
+          "annotations": [
+            {
+              "id": "f7ed7d53-138b-4bed-bd27-ec60713d775d",
+              "originalPhrase": "Boah, es gibt mega viele Sterne so.",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The solemn delivery clashes with deliberately vague youth slang: 'boah,' 'mega,' and the filler 'so.' A banal observation is presented as evidence of profound thought. 'Whoa, there are, like, so many stars.' is also commonly used as a conversation filler if you don't know what to say anymore.",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Wunden klaffen (aua), das ist Kunst erschaffen (eh-eh, eh-eh)",
+          "translation": "Wounds gape open (ouch), that's how you create art (eh-eh, eh-eh)",
+          "annotations": []
+        },
+        {
+          "original": "Aus dem Kummerkasten diverser Grundschulklassen",
+          "translation": "From the worry boxes of various primary-school classes",
+          "annotations": [
+            {
+              "id": "5960a41b-d738-491d-81c0-87c6fdd3d287",
+              "originalPhrase": "Kummerkasten",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "A 'Kummerkasten' is literally a 'worry box.' In schools it can be a box where children anonymously submit concerns; more broadly, the word can mean an advice column or a person who listens to everyone's problems.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "„Ach nix“ ist die erste Zeile in meinem Bewerbungsschreiben",
+          "translation": "‘Oh, nothing’ is the first line of my cover letter",
+          "annotations": [
+            {
+              "id": "dff37efb-5167-4cbd-9793-bf20b5c653fd",
+              "originalPhrase": "Ach nix",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Ach, nichts' ('oh, nothing') is a stereotypically evasive reply when someone asks what is wrong. Opening a job application with it turns passive, attention-seeking gloom into a professional qualification.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Ich brauche jemanden zum Reden, der kann gerne schweigen",
+          "translation": "I need someone to talk to; they're welcome to stay silent",
+          "annotations": []
+        },
+        {
+          "original": "Die Welt ist schuld an meinen Saufexzessen",
+          "translation": "The world is to blame for my drinking binges",
+          "annotations": [
+            {
+              "id": "38ff25ef-ae83-4c12-bb34-cff6fba4dcbf",
+              "originalPhrase": "Saufexzessen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Saufen' is a blunt, colloquial verb for drinking heavily or boozing; 'Saufexzesse' are bouts of excessive drinking.",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Schatz, verklag doch die Welt wegen der blauen Flecken (was?)",
+          "translation": "Honey, why don't you sue the world over those bruises? (What?)",
+          "annotations": [
+            {
+              "id": "6d6dcbdb-91a8-4b2e-aae5-86030830113f",
+              "originalPhrase": "blauen Flecken",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Blaue Flecken' is the everyday German term for bruises, while 'blau sein' also means to be drunk. The dark joke reveals the danger behind the narrator's self-pity: he shifts blame to 'the world' even for a partner's injuries associated with his drinking.",
+              "category": "wordplay"
+            }
+          ]
+        },
+        {
+          "original": "Es soll Menschen geben, die sind ohne Grund fröhlich",
+          "translation": "Apparently, some people are cheerful for no reason",
+          "annotations": []
+        },
+        {
+          "original": "Das ist unhöflich",
+          "translation": "That's rude",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "0cf1d5fa-805b-4e7d-adbb-a8176cb769cd",
+      "type": "chorus",
+      "label": "Hook",
+      "lines": [
+        {
+          "original": "Ja, ich habe ein Problem mit Alkohol",
+          "translation": "Yeah, I have a problem with alcohol",
+          "annotations": []
+        },
+        {
+          "original": "Willst du mich verklagen?",
+          "translation": "Are you going to sue me?",
+          "annotations": []
+        },
+        {
+          "original": "Oder gibt's ein „Ich verlier' den Halt“-Verbot?",
+          "translation": "Or is there a ban on crashing out?",
+          "annotations": []
+        },
+        {
+          "original": "Zeig den Paragraphen",
+          "translation": "Show me the statute",
+          "annotations": []
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": []
+        },
+        {
+          "original": "Mir geht's super schlecht",
+          "translation": "I'm feeling really bad",
+          "annotations": []
+        },
+        {
+          "original": "Aber das ist mein gutes Recht",
+          "translation": "But that's my perfect right",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "9785a65e-5cbf-4859-b163-8fe10c08d474",
+      "type": "outro",
+      "label": "Outro",
+      "lines": [
+        {
+          "original": "Boah, es gibt mega viele Sterne so",
+          "translation": "Whoa, there are, like, so many stars",
+          "annotations": [
+            {
+              "id": "9cf0ca33-aca4-4824-ad4a-40da0131612a",
+              "originalPhrase": "Boah, es gibt mega viele Sterne so",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "This is a callback to the original line where the artist was making fun of people using 'Whoa, there are, like, so many stars' seriously by using it as the last line of the song, confirming the whole song was written from the perspective of the stereotype that was being made fun of earlier.",
+              "category": "wordplay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
