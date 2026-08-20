@@ -1,0 +1,506 @@
+{
+  "id": "das-lumpenpack-silvester",
+  "title": "Silvester",
+  "artist": "Das Lumpenpack",
+  "language": "de",
+  "album": "Steil II",
+  "year": 2015,
+  "spotifyId": "29pa9uAI9tQl4o7yna9jMN",
+  "sections": [
+    {
+      "id": "148c6f31-28b6-4a86-96e8-ecff6144649f",
+      "type": "verse",
+      "label": "Strophe 1",
+      "lines": [
+        {
+          "original": "Durch die Fenster im Abteil sehen alle Städte gleich aus",
+          "translation": "Through the compartment windows, all the cities look the same",
+          "annotations": [
+            {
+              "id": "925fa9cd-884d-4e80-9c30-01856d034957",
+              "originalPhrase": "Abteil",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "An 'Abteil' is a separate compartment or seating section on a train. The entire song takes place during an increasingly surreal train journey.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Man sieht wesentlich mehr Autos, als es draußen Menschen gibt",
+          "translation": "You see far more cars than there are people outside",
+          "annotations": []
+        },
+        {
+          "original": "Mein iPod-Shuffle spielt zum dritten Mal dasselbe Lied",
+          "translation": "My iPod Shuffle is playing the same song for the third time",
+          "annotations": [
+            {
+              "id": "930224ba-b0b7-489b-97f5-45371d365884",
+              "originalPhrase": "iPod-Shuffle",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Apple's iPod Shuffle was a small music player built around randomized playback. Hearing the same song repeatedly makes its name ironic and reinforces the journey's sense of repetition.",
+              "category": "name"
+            }
+          ]
+        },
+        {
+          "original": "Das Pärchen neben mir im Vierer ist so ekelhaft verliebt",
+          "translation": "The couple beside me in the four-seater are so disgustingly in love",
+          "annotations": [
+            {
+              "id": "ea2a2400-1ae9-4f0c-aaf0-a1e66111cb1e",
+              "originalPhrase": "im Vierer",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "A 'Vierer' is a group of four train seats arranged around a table, with two seats facing the other two.",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Ich blättere im Buch, kann mich nicht konzentrier'n",
+          "translation": "I leaf through my book but can't concentrate",
+          "annotations": []
+        },
+        {
+          "original": "Les' dieselbe Seite sicher schon zum dritten Mal",
+          "translation": "I must be reading the same page for the third time already",
+          "annotations": []
+        },
+        {
+          "original": "Der Kaffee schmeckt nach Staub, das Brötchen schmeckt nach Staub",
+          "translation": "The coffee tastes like dust, the bread roll tastes like dust",
+          "annotations": []
+        },
+        {
+          "original": "Das Becks-Bier schmeckt nach Staub und ist obendrein noch schal",
+          "translation": "The Beck's beer tastes like dust and, on top of that, it's gone flat",
+          "annotations": [
+            {
+              "id": "79fd58db-d44a-4844-a21e-bc5fa9145324",
+              "originalPhrase": "Becks-Bier",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Beck's is a major German pilsner brand from Bremen. The beer becomes one of the journey's recurring, increasingly familiar objects.",
+              "category": "name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4eea76ca-5135-45df-b775-4ce91e565106",
+      "type": "chorus",
+      "label": "Refrain",
+      "lines": [
+        {
+          "original": "Doch hey, bald ist Silvester, dann is'n neues Jahr",
+          "translation": "But hey, soon it'll be New Year's Eve, then it'll be a new year",
+          "annotations": [
+            {
+              "id": "eec0561d-33cc-4b90-80c4-bf61bec226f1",
+              "originalPhrase": "Silvester",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "In German, 'Silvester' means New Year's Eve. The name comes from Saint Sylvester I, whose feast day falls on December 31.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Und dann wird alles viel, viel besser, als das alte bis jetzt war",
+          "translation": "And then everything will be much, much better than the old year has been so far",
+          "annotations": []
+        },
+        {
+          "original": "Mir schmeckt zwar kein Fondue, mir schmeckt auch kein Raclette",
+          "translation": "I don't like fondue, and I don't like raclette either",
+          "annotations": [
+            {
+              "id": "9441889c-47f5-48c2-9547-a60823915664",
+              "originalPhrase": "Fondue, mir schmeckt auch kein Raclette",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Fondue and tabletop raclette are popular German New Year's Eve meals because they are communal and can be eaten slowly while people wait for midnight.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Ich hasse wirklich Bleigießen und ich kotze meist von Sekt",
+          "translation": "I really hate lead-pouring, and sparkling wine usually makes me throw up",
+          "annotations": [
+            {
+              "id": "86608088-2dc9-433b-8568-482224a6cc75",
+              "originalPhrase": "Bleigießen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Bleigießen' was a traditional German New Year's Eve fortune-telling game. People melted a small piece of lead, dropped it into cold water, and interpreted the resulting shape. Because of lead's toxicity, modern sets generally use wax or tin instead.",
+              "category": "cultural_reference"
+            },
+            {
+              "id": "a911cf35-a051-4337-a848-1834735291d0",
+              "originalPhrase": "Sekt",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Sekt' is German sparkling wine and the standard drink for a midnight New Year's toast.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Und es ist grad erst kurz vor sieben, kann die Zeit jetzt mal vergeh'n?",
+          "translation": "And it's only just before seven; could time please start moving?",
+          "annotations": []
+        },
+        {
+          "original": "Denn verdammt, es ist Silvester, ich will doch nur Raketen seh'n",
+          "translation": "Because damn it, it's New Year's Eve; all I want is to see the fireworks",
+          "annotations": [
+            {
+              "id": "d4e1132e-e236-4b11-8922-757471972ee2",
+              "originalPhrase": "Raketen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Privately launched fireworks, especially rockets, are a central and often chaotic part of New Year's Eve celebrations in Germany.",
+              "category": "cultural_reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7f7046b8-9253-42ea-89dd-8b3284ba0571",
+      "type": "verse",
+      "label": "Strophe 2",
+      "lines": [
+        {
+          "original": "Doch durch die Fenster im Abteil seh'n nun mal alle Städte gleich aus",
+          "translation": "But through the compartment windows, all the cities simply look the same",
+          "annotations": []
+        },
+        {
+          "original": "Ganz egal ob London oder Paderborn",
+          "translation": "Whether it's London or Paderborn makes no difference",
+          "annotations": [
+            {
+              "id": "5839b609-9835-43ff-bfd2-9e6a470f81a0",
+              "originalPhrase": "London oder Paderborn",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The line contrasts the global metropolis of London with Paderborn, a much smaller German city in North Rhine-Westphalia. From the narrator's numbed perspective, even this obvious difference has disappeared.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Mein iPod Shuffle spielt zum zehnten Mal dasselbe Lied",
+          "translation": "My iPod Shuffle is playing the same song for the tenth time",
+          "annotations": []
+        },
+        {
+          "original": "Das Pärchen neben mir im Vierer hat gerad' ein Kind gekriegt",
+          "translation": "The couple beside me in the four-seater have just had a baby",
+          "annotations": []
+        },
+        {
+          "original": "Und ich blättere im Buch, kann mich nicht konzentrier'n",
+          "translation": "And I leaf through my book but can't concentrate",
+          "annotations": []
+        },
+        {
+          "original": "Les' dasselbe Wort sicher schon zum zwölften Mal",
+          "translation": "I must be reading the same word for the twelfth time already",
+          "annotations": []
+        },
+        {
+          "original": "Der Kaffee schmeckt nach Pisse, das Brötchen schmeckt nach Pisse",
+          "translation": "The coffee tastes like piss, the bread roll tastes like piss",
+          "annotations": []
+        },
+        {
+          "original": "Das Becks-Bier schmeckt nach Pisse, wobei das ist ja normal",
+          "translation": "The Beck's beer tastes like piss, although that's normal",
+          "annotations": [
+            {
+              "id": "05bbc551-5ccf-414e-91a9-b3ecec83d107",
+              "originalPhrase": "wobei das ist ja normal",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "The escalating complaint becomes a dismissive joke at Beck's expense: unlike the other items, the narrator claims the beer always tastes this bad.",
+              "category": "wordplay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dddc64af-95c9-4b32-a2b7-02057ca6d91b",
+      "type": "chorus",
+      "label": "Refrain",
+      "lines": [
+        {
+          "original": "Und ja, bald ist Silvester, dann is'n neues Jahr",
+          "translation": "And yes, soon it'll be New Year's Eve, then it'll be a new year",
+          "annotations": []
+        },
+        {
+          "original": "Und dann wird alles viel, viel besser, als das alte bis jetzt war",
+          "translation": "And then everything will be much, much better than the old year has been so far",
+          "annotations": []
+        },
+        {
+          "original": "Mir schmeckt zwar kein Fondue, mir schmeckt auch kein Raclette",
+          "translation": "I don't like fondue, and I don't like raclette either",
+          "annotations": []
+        },
+        {
+          "original": "Ich hasse wirklich Bleigießen und ich kotze meist von Sekt",
+          "translation": "I really hate lead-pouring, and sparkling wine usually makes me throw up",
+          "annotations": []
+        },
+        {
+          "original": "Und es läuft immer Dinner for One, kann der den Tigerkopf nich' seh'n?",
+          "translation": "And they always show Dinner for One; can't he see the tiger's head?",
+          "annotations": [
+            {
+              "id": "5c748e5d-4894-4847-bdb9-599e81db162e",
+              "originalPhrase": "Dinner for One",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Dinner for One' is a British comedy sketch that German television stations broadcast every New Year's Eve. It is far more famous in Germany than in Britain. The butler repeatedly trips over the head of a tiger-skin rug while serving an imaginary dinner party.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Denn verdammt, es ist Silvester, ich will doch nur Raketen seh'n",
+          "translation": "Because damn it, it's New Year's Eve; all I want is to see the fireworks",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "04025a4b-398b-466a-b60e-23ac5e1d62b1",
+      "type": "verse",
+      "label": "Strophe 3",
+      "lines": [
+        {
+          "original": "Durch die Fenster im Abteil seh'n nun mal alle Menschen gleich aus",
+          "translation": "Through the compartment windows, all the people simply look the same",
+          "annotations": []
+        },
+        {
+          "original": "Wie auf einer VHS-Kassette, die man grade spult",
+          "translation": "Like a VHS tape that's being fast-forwarded",
+          "annotations": [
+            {
+              "id": "507b1865-a74a-433a-a2d6-761ff3f3d7ea",
+              "originalPhrase": "VHS-Kassette, die man grade spult",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "Fast-forwarding or rewinding a VHS tape made people on screen blur past at unnatural speed. The image suggests both the view from a moving train and years passing unnoticed.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Mein iPod Shuffle gab grade eben seinen Geist auf",
+          "translation": "My iPod Shuffle just gave up the ghost",
+          "annotations": [
+            {
+              "id": "9cfca944-b7fd-4e14-8a4c-a916726ffb81",
+              "originalPhrase": "gab grade eben seinen Geist auf",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Den Geist aufgeben' literally means 'to give up the ghost.' Like its English equivalent, it can mean dying, but it is also commonly used when a device stops working.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Leon ist jetzt sieben und wird dies's Jahr eingeschult",
+          "translation": "Leon is seven now and will start school this year",
+          "annotations": [
+            {
+              "id": "3e61535b-a6a3-4bdd-b7ee-086153533431",
+              "originalPhrase": "eingeschult",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Einschulung' is a child's ceremonial first day of primary school, normally at age six or seven in Germany. Leon's age reveals that years have somehow passed during the same train journey.",
+              "category": "cultural_reference"
+            }
+          ]
+        },
+        {
+          "original": "Und ich blättere im Buch, kann mich nicht konzentrier'n",
+          "translation": "And I leaf through my book but can't concentrate",
+          "annotations": []
+        },
+        {
+          "original": "Aber hey, scheißegal, weil ich's längst auswendig kann",
+          "translation": "But hey, who gives a shit? I know it by heart by now",
+          "annotations": [
+            {
+              "id": "d0501bbf-3bf7-4fac-af7b-74a707bdc180",
+              "originalPhrase": "scheißegal",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Scheißegal' is an emphatic and vulgar form of 'I don't care,' roughly equivalent to 'I don't give a shit.'",
+              "category": "slang"
+            }
+          ]
+        },
+        {
+          "original": "Der Kaffee schmeckt mir gut, das Brötchen schmeckt mir gut",
+          "translation": "The coffee tastes good to me, the bread roll tastes good to me",
+          "annotations": []
+        },
+        {
+          "original": "Das Becks-Bier schmeckt mir gut, man gewöhnt sich halt daran",
+          "translation": "The Beck's beer tastes good to me; you simply get used to it",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "4ca8274e-fcb2-4910-85ab-c705821d5aca",
+      "type": "chorus",
+      "label": "Refrain",
+      "lines": [
+        {
+          "original": "Und ja, bald ist Silvester, dann is'n neues Jahr",
+          "translation": "And yes, soon it'll be New Year's Eve, then it'll be a new year",
+          "annotations": []
+        },
+        {
+          "original": "Und dann wird alles viel, viel besser, als das alte bis jetzt war",
+          "translation": "And then everything will be much, much better than the old year has been so far",
+          "annotations": []
+        },
+        {
+          "original": "Und jetzt ist endlich null Uhr und alle zähl'n von zehn",
+          "translation": "And now it's finally midnight and everyone is counting down from ten",
+          "annotations": []
+        },
+        {
+          "original": "Denn verdammt, jetzt ist Silvester, jetzt darf ich Raketen seh'n",
+          "translation": "Because damn it, now it's New Year's Eve; now I get to see the fireworks",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "id": "32edc785-7963-4019-8d2f-a3cd2d0083e7",
+      "type": "bridge",
+      "label": "Bridge",
+      "lines": [
+        {
+          "original": "Soll es das gewesen sein? Ein lauter Knall, ein Blitz",
+          "translation": "Was that supposed to be it? A loud bang, a flash",
+          "annotations": []
+        },
+        {
+          "original": "Irgendjemand wirft Konfetti, Sekt wird rumgespritzt",
+          "translation": "Somebody throws confetti, sparkling wine gets sprayed around",
+          "annotations": []
+        },
+        {
+          "original": "Man liegt sich in den Armen, man ruft „Frohes neues Jahr“",
+          "translation": "Everyone embraces and shouts, ‘Happy New Year’",
+          "annotations": [
+            {
+              "id": "5a7592ad-948b-4e65-808b-d2ee5fd8df01",
+              "originalPhrase": "Man liegt sich in den Armen",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "'Sich in den Armen liegen' literally means to lie in one another's arms and describes people warmly embracing, especially during an emotional celebration or reunion.",
+              "category": "idiom"
+            }
+          ]
+        },
+        {
+          "original": "Dabei ist gar nichts anders, als es eben grade war",
+          "translation": "Yet nothing is any different from how it was a moment ago",
+          "annotations": []
+        },
+        {
+          "original": "Da draußen ist die Stadt, hier drinnen ist der Zug",
+          "translation": "Outside is the city; in here is the train",
+          "annotations": []
+        },
+        {
+          "original": "Neben mir sitzt Leon und das Pärchen und das Buch",
+          "translation": "Beside me are Leon and the couple and the book",
+          "annotations": []
+        },
+        {
+          "original": "Dazu der iPod Shuffle und das Brötchen, der Kaffee",
+          "translation": "Along with the iPod Shuffle and the bread roll and the coffee",
+          "annotations": []
+        },
+        {
+          "original": "Dieses gottverdammte Becks-Bier hier im ICE",
+          "translation": "This goddamn Beck's beer here on the ICE",
+          "annotations": [
+            {
+              "id": "3e1efb99-e84e-4472-b110-7902bc109c34",
+              "originalPhrase": "ICE",
+              "phrase": "",
+              "start": 0,
+              "end": 0,
+              "body": "ICE stands for Intercity-Express, Deutsche Bahn's flagship high-speed train service. Naming it finally makes the otherwise generic train setting specifically German.",
+              "category": "name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f9607d2e-e7a5-45e8-b040-a09fbf67ba71",
+      "type": "chorus",
+      "label": "Refrain",
+      "lines": [
+        {
+          "original": "Doch hey, bald ist Silvester und dann is'n neues Jahr",
+          "translation": "But hey, soon it'll be New Year's Eve and then it'll be a new year",
+          "annotations": []
+        },
+        {
+          "original": "Und dann wird alles viel, viel besser, als das alte bis jetzt war",
+          "translation": "And then everything will be much, much better than the old year has been so far",
+          "annotations": []
+        },
+        {
+          "original": "Diesen alten Traum hab ich längst schon aufgegeb'n",
+          "translation": "I gave up on that old dream a long time ago",
+          "annotations": []
+        },
+        {
+          "original": "Doch ich freu' mich auf Silvester, dann darf ich Raketen seh'n",
+          "translation": "But I look forward to New Year's Eve; then I get to see the fireworks",
+          "annotations": []
+        }
+      ]
+    }
+  ]
+}
