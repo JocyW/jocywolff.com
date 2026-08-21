@@ -73,9 +73,12 @@ export function DesktopAnnotations({
   // Phase 1: map each annotation to its column element via DOM lookup.
   useEffect(() => {
     const cols: Record<string, Element> = {};
+    const columnEls: HTMLElement[] = [];
     document.querySelectorAll('[data-section]').forEach((sectionEl) => {
-      const colEl = sectionEl.querySelector('[data-ann-col]');
+      const colEl = sectionEl.querySelector<HTMLElement>('[data-ann-col]');
       if (!colEl) return;
+      colEl.style.minHeight = '1px';
+      columnEls.push(colEl);
       annotations.forEach((ann) => {
         if (sectionEl.querySelector(`[data-ann="${ann.id}"]`)) {
           cols[ann.id] = colEl;
@@ -85,6 +88,12 @@ export function DesktopAnnotations({
     colElsRef.current = cols;
     setColElsVersion((v) => v + 1);
     setPositions({});
+
+    return () => {
+      columnEls.forEach((colEl) => {
+        colEl.style.minHeight = '1px';
+      });
+    };
   }, [annotations]);
 
   // Phase 2: after cards have rendered (invisible) into their columns,
@@ -92,7 +101,7 @@ export function DesktopAnnotations({
   useEffect(() => {
     if (colElsVersion === 0) return;
 
-    requestAnimationFrame(() => {
+    const frame = requestAnimationFrame(() => {
       const byCol = new Map<
         Element,
         Array<{ id: string; idealY: number; height: number }>
@@ -117,13 +126,22 @@ export function DesktopAnnotations({
       });
 
       const newPositions: Record<string, number> = {};
-      byCol.forEach((items) => {
+      byCol.forEach((items, colEl) => {
         const tops = resolveOverlaps(items, CARD_GAP);
         Object.assign(newPositions, tops);
+
+        const contentHeight = items.reduce(
+          (max, item) => Math.max(max, tops[item.id] + item.height),
+          1
+        );
+        (colEl as HTMLElement).style.minHeight =
+          `${Math.ceil(contentHeight)}px`;
       });
 
       setPositions(newPositions);
     });
+
+    return () => cancelAnimationFrame(frame);
   }, [colElsVersion, annotations]);
 
   // Build portal map: column element → annotations that belong to it.
